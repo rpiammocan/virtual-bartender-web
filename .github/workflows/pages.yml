@@ -3,6 +3,7 @@ name: Deploy web test
 on:
   push:
     branches:
+      - main
       - agent/browser-native-v1
   workflow_dispatch:
 
@@ -21,8 +22,6 @@ jobs:
     steps:
       - name: Check out branch
         uses: actions/checkout@v4
-        with:
-          ref: agent/browser-native-v1
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
