@@ -4,6 +4,9 @@ import type { InventoryItem, InventoryShareFile } from "./types";
 export const INVENTORY_IMPORT_WARNING =
   "Importing this inventory will replace your existing inventory. Your current inventory will be removed. Export it first if you want to keep a copy.";
 
+// Backward-compatible name used by the current My Bar page.
+export const IMPORT_OVERWRITE_WARNING = INVENTORY_IMPORT_WARNING;
+
 function makeId(ingredientId: string, context: InventoryItem["context"], contextId?: string): string {
   return `${context}:${contextId ?? "default"}:${ingredientId}`;
 }
