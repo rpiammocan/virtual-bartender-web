@@ -28,7 +28,7 @@ jobs:
         run: python tools/generate_catalog.py
       - name: Commit generated catalog
         run: |
-          if git diff --quiet -- src/catalog/generatedCatalog.ts; then
+          if [ -z "$(git status --porcelain -- src/catalog/generatedCatalog.ts)" ]; then
             echo 'Generated catalog is already current.'
             exit 0
           fi
