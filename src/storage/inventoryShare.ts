@@ -1,5 +1,8 @@
-import { getInventory, mergeInventory, replaceInventory } from "./db";
-import type { InventoryImportMode, InventoryItem, InventoryShareFile } from "./types";
+import { getInventory, replaceInventory } from "./db";
+import type { InventoryItem, InventoryShareFile } from "./types";
+
+export const INVENTORY_IMPORT_WARNING =
+  "Importing this inventory will replace your existing inventory. Your current inventory will be removed. Export it first if you want to keep a copy.";
 
 function makeId(ingredientId: string, context: InventoryItem["context"], contextId?: string): string {
   return `${context}:${contextId ?? "default"}:${ingredientId}`;
@@ -55,9 +58,12 @@ export function parseInventoryShareFile(text: string): InventoryShareFile {
   return value as InventoryShareFile;
 }
 
+/**
+ * Import always overwrites the destination inventory. The UI must show
+ * INVENTORY_IMPORT_WARNING and obtain confirmation before calling this.
+ */
 export async function importInventoryShareFile(
   data: InventoryShareFile,
-  mode: InventoryImportMode,
   destination: "my_bar" | "tonight_bar" = "my_bar",
   contextId?: string,
 ): Promise<number> {
@@ -75,10 +81,6 @@ export async function importInventoryShareFile(
     updatedAt: now,
   }));
 
-  if (mode === "replace") {
-    await replaceInventory(destination, incoming, contextId);
-  } else {
-    await mergeInventory(incoming);
-  }
+  await replaceInventory(destination, incoming, contextId);
   return incoming.length;
 }
