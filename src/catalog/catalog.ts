@@ -1,6 +1,7 @@
 import { BASE_RECIPES } from "./baseRecipes";
 import { RECIPES_V2 } from "./catalogV2";
 import { RECIPES_V3 } from "./catalogV3";
+import { RECIPES_V4 } from "./catalogV4";
 import type { CatalogRecipe } from "./recipes";
 
 // Each migrated catalog generation is kept separate so it can be audited
@@ -9,6 +10,7 @@ export const BUILTIN_RECIPES: CatalogRecipe[] = [
   ...BASE_RECIPES,
   ...RECIPES_V2,
   ...RECIPES_V3,
+  ...RECIPES_V4,
 ];
 
 export const BUILTIN_RECIPES_BY_KEY = new Map(
