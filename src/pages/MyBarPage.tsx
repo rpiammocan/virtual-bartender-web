@@ -1,4 +1,5 @@
-import { ChangeEvent, useEffect, useRef, useState } from "react";
+import { ChangeEvent, useEffect, useMemo, useRef, useState } from "react";
+import { BUILTIN_INGREDIENTS, type CatalogIngredient } from "../catalog/ingredients";
 import {
   getInventory,
   putInventoryItem,
@@ -17,12 +18,12 @@ import type { InventoryItem } from "../storage/types";
 type Props = { onHome: () => void };
 
 function slug(value: string): string {
-  return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return value.trim().toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
 export default function MyBarPage({ onHome }: Props) {
   const [inventory, setInventory] = useState<InventoryItem[]>([]);
-  const [name, setName] = useState("");
+  const [query, setQuery] = useState("");
   const [error, setError] = useState("");
   const [notice, setNotice] = useState("");
   const fileInput = useRef<HTMLInputElement>(null);
@@ -38,9 +39,38 @@ export default function MyBarPage({ onHome }: Props) {
 
   useEffect(() => { void load(); }, []);
 
-  async function addIngredient() {
-    const ingredientName = name.trim();
-    if (!ingredientName) return;
+  const usedIds = useMemo(() => new Set(inventory.map((item) => item.ingredientId)), [inventory]);
+  const results = useMemo(() => {
+    const value = query.trim().toLowerCase();
+    if (!value) return [];
+    return BUILTIN_INGREDIENTS
+      .filter((item) => !usedIds.has(item.id))
+      .filter((item) => item.name.toLowerCase().includes(value))
+      .slice(0, 20);
+  }, [query, usedIds]);
+  const exactCatalogMatch = useMemo(
+    () => BUILTIN_INGREDIENTS.some((item) => item.name.toLowerCase() === query.trim().toLowerCase()),
+    [query],
+  );
+
+  async function addCatalogIngredient(ingredient: CatalogIngredient) {
+    const item: InventoryItem = {
+      id: `my_bar:default:${ingredient.id}`,
+      ingredientId: ingredient.id,
+      ingredientName: ingredient.name,
+      context: "my_bar",
+      have: true,
+      updatedAt: new Date().toISOString(),
+    };
+    await putInventoryItem(item);
+    setQuery("");
+    setNotice(`${ingredient.name} added to My Bar.`);
+    await load();
+  }
+
+  async function addManualIngredient() {
+    const ingredientName = query.trim();
+    if (!ingredientName || exactCatalogMatch) return;
     const ingredientId = `user:${slug(ingredientName) || crypto.randomUUID()}`;
     const item: InventoryItem = {
       id: `my_bar:default:${ingredientId}`,
@@ -51,8 +81,8 @@ export default function MyBarPage({ onHome }: Props) {
       updatedAt: new Date().toISOString(),
     };
     await putInventoryItem(item);
-    setName("");
-    setNotice(`${ingredientName} added to My Bar.`);
+    setQuery("");
+    setNotice(`${ingredientName} added to My Bar as a custom ingredient.`);
     await load();
   }
 
@@ -89,28 +119,35 @@ export default function MyBarPage({ onHome }: Props) {
       <section className="inventory-share" aria-label="Inventory import and export">
         <button type="button" onClick={exportInventory}>Export Inventory</button>
         <button type="button" onClick={() => fileInput.current?.click()}>Import Inventory</button>
-        <input
-          ref={fileInput}
-          type="file"
-          accept="application/json,.json"
-          hidden
-          onChange={importInventory}
-        />
+        <input ref={fileInput} type="file" accept="application/json,.json" hidden onChange={importInventory} />
         <small>Import replaces your current My Bar inventory. Export first if you want to keep a copy.</small>
       </section>
 
       <section className="picker">
-        <label htmlFor="ingredient-name">Add ingredient</label>
-        <div className="inline-form">
-          <input
-            id="ingredient-name"
-            value={name}
-            onChange={(event) => setName(event.target.value)}
-            onKeyDown={(event) => { if (event.key === "Enter") void addIngredient(); }}
-            placeholder="Search catalog coming next; manual entry works now"
-          />
-          <button type="button" onClick={addIngredient} disabled={!name.trim()}>Add</button>
-        </div>
+        <label htmlFor="ingredient-search">Add ingredient</label>
+        <input
+          id="ingredient-search"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Search bourbon, tonic, lime..."
+          autoComplete="off"
+        />
+        {query.trim() && (
+          <div className="picker-results">
+            {results.map((ingredient) => (
+              <button type="button" key={ingredient.id} onClick={() => void addCatalogIngredient(ingredient)}>
+                <span>{ingredient.name}</span>
+                <small>{ingredient.category}</small>
+              </button>
+            ))}
+            {!exactCatalogMatch && (
+              <button type="button" className="manual-add" onClick={() => void addManualIngredient()}>
+                <span>Add “{query.trim()}” manually</span>
+                <small>User-created ingredient</small>
+              </button>
+            )}
+          </div>
+        )}
       </section>
 
       {error && <p className="error">{error}</p>}
@@ -138,10 +175,7 @@ export default function MyBarPage({ onHome }: Props) {
                 await load();
               }}
             />
-            <button
-              className="danger-link"
-              onClick={async () => { await removeInventoryItem(item.id); await load(); }}
-            >
+            <button className="danger-link" onClick={async () => { await removeInventoryItem(item.id); await load(); }}>
               Remove
             </button>
           </article>
