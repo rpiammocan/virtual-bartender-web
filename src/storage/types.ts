@@ -28,5 +28,3 @@ export interface InventoryShareFile {
     notes?: string;
   }>;
 }
-
-export type InventoryImportMode = "merge" | "replace";
