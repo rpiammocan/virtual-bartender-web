@@ -73,15 +73,3 @@ export async function replaceInventory(
     db.close();
   }
 }
-
-export async function mergeInventory(items: InventoryItem[]): Promise<void> {
-  const db = await openDatabase();
-  try {
-    const transaction = db.transaction(INVENTORY, "readwrite");
-    const store = transaction.objectStore(INVENTORY);
-    items.forEach((item) => store.put(item));
-    await transactionDone(transaction);
-  } finally {
-    db.close();
-  }
-}
