@@ -39,7 +39,9 @@ export async function getInventory(context: InventoryItem["context"], contextId?
       request.onsuccess = () => resolve(request.result as InventoryItem[]);
       request.onerror = () => reject(request.error);
     });
-    return items.filter((item) => (contextId ? item.contextId === contextId : !item.contextId));
+    return items
+      .filter((item) => (contextId ? item.contextId === contextId : !item.contextId))
+      .sort((a, b) => a.ingredientName.localeCompare(b.ingredientName));
   } finally {
     db.close();
   }
@@ -50,6 +52,35 @@ export async function putInventoryItem(item: InventoryItem): Promise<void> {
   try {
     const transaction = db.transaction(INVENTORY, "readwrite");
     transaction.objectStore(INVENTORY).put(item);
+    await transactionDone(transaction);
+  } finally {
+    db.close();
+  }
+}
+
+export async function removeInventoryItem(id: string): Promise<void> {
+  const db = await openDatabase();
+  try {
+    const transaction = db.transaction(INVENTORY, "readwrite");
+    transaction.objectStore(INVENTORY).delete(id);
+    await transactionDone(transaction);
+  } finally {
+    db.close();
+  }
+}
+
+export async function updateInventoryQuantity(id: string, quantity?: number): Promise<void> {
+  const db = await openDatabase();
+  try {
+    const transaction = db.transaction(INVENTORY, "readwrite");
+    const store = transaction.objectStore(INVENTORY);
+    const request = store.get(id);
+    const item = await new Promise<InventoryItem>((resolve, reject) => {
+      request.onsuccess = () => resolve(request.result as InventoryItem);
+      request.onerror = () => reject(request.error);
+    });
+    if (!item) throw new Error("Inventory item not found.");
+    store.put({ ...item, quantity, updatedAt: new Date().toISOString() });
     await transactionDone(transaction);
   } finally {
     db.close();
