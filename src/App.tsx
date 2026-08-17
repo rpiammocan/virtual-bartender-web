@@ -19,13 +19,14 @@ export default function App() {
   if(page==="mybar")return <div className="theme-mybar"><MyBarPage onHome={home}/></div>;
   if(page==="tonight")return <div className="theme-tonight"><TonightsBarPage onHome={home}/></div>;
   if(page==="matches")return <div className="theme-matches"><WhatCanIMakePage onHome={home}/></div>;
-  if(page==="recipes")return <RecipesPage onHome={home} openRecipe={openRecipe} manageRecipes={()=>setPage("recipe-manage")}/>;
-  if(page==="recipe-manage")return <RecipeManagePage onHome={home} onBack={()=>setPage("recipes")} openRecipe={openRecipe}/>;
-  if(page==="favorites")return <FavoritesPage onHome={home} openRecipe={openRecipe}/>;
-  if(page==="shopping")return <ShoppingPage onHome={home}/>;
-  if(page==="history")return <HistoryPage onHome={home}/>;
+  if(page==="recipes")return <div className="theme-recipes"><RecipesPage onHome={home} openRecipe={openRecipe} manageRecipes={()=>setPage("recipe-manage")}/></div>;
+  if(page==="display")return <div className="theme-display"><RecipesPage onHome={home} openRecipe={openRecipe}/></div>;
+  if(page==="recipe-manage")return <div className="theme-recipes"><RecipeManagePage onHome={home} onBack={()=>setPage("recipes")} openRecipe={openRecipe}/></div>;
+  if(page==="favorites")return <div className="theme-favorites"><FavoritesPage onHome={home} openRecipe={openRecipe}/></div>;
+  if(page==="shopping")return <div className="theme-shopping"><ShoppingPage onHome={home}/></div>;
+  if(page==="history")return <div className="theme-history"><HistoryPage onHome={home}/></div>;
   if(page==="surprise")return <div className="theme-surprise"><SurprisePage onHome={home} openRecipe={openRecipe}/></div>;
-  if(page==="settings")return <SettingsPage onHome={home}/>;
-  if(page==="recipe-detail"&&recipeKey)return <RecipeDetailPage recipeKey={recipeKey} onHome={home} onBack={()=>setPage("recipes")}/>;
-  return <main className="page"><section className="parity-placeholder"><p className="eyebrow">Parity restoration in progress</p><h1>Virtual Bartender</h1><p>This screen is being restored from the established Virtual Bartender edition.</p><button className="back-button" type="button" onClick={home}>← Home</button></section></main>;
+  if(page==="settings")return <div className="theme-settings"><SettingsPage onHome={home}/></div>;
+  if(page==="recipe-detail"&&recipeKey)return <div className="theme-recipes"><RecipeDetailPage recipeKey={recipeKey} onHome={home} onBack={()=>setPage("recipes")}/></div>;
+  return <HomePage navigate={setPage}/>;
 }
