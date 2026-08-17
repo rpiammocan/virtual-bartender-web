@@ -2,12 +2,13 @@ import { useMemo,useState } from "react";
 import { BUILTIN_RECIPES } from "../catalog/catalog";
 import { deleteCustomRecipe,getCustomRecipe,saveCustomRecipe } from "../storage/customRecipes";
 import { addHistory,applyRecipeOverride,hideRecipe,isFavorite,saveRecipeOverride,setFavorite } from "../storage/recipeUserData";
+import type { CatalogRecipe } from "../catalog/recipes";
 
 type Props={recipeKey:string;onHome:()=>void;onBack:()=>void};
 function metricAmount(q:number,u:string){if(u==="oz")return `${Math.round(q*29.5735)} ml`;if(u==="tsp")return `${Math.round(q*4.92892)} ml`;if(u==="tbsp")return `${Math.round(q*14.7868)} ml`;return `${q} ${u}`;}
 export default function RecipeDetailPage({recipeKey,onHome,onBack}:Props){
- const builtIn=BUILTIN_RECIPES.find(r=>r.key===recipeKey);const custom=getCustomRecipe(recipeKey);const initial=builtIn?applyRecipeOverride(builtIn):custom;const [metric,setMetric]=useState(false);const [favorite,setFav]=useState(isFavorite(recipeKey));const [rating,setRating]=useState("5");const [notes,setNotes]=useState("");const [editing,setEditing]=useState(false);const [edit,setEdit]=useState({name:initial?.name||"",description:initial?.description||"",type:initial?.type||"cocktail" as "cocktail"|"mocktail",instructions:initial?.instructions||""});const [version,setVersion]=useState(0);
- const recipe=useMemo(()=>builtIn?applyRecipeOverride(builtIn):getCustomRecipe(recipeKey),[builtIn,recipeKey,version]);if(!recipe)return <main className="page"><p>Recipe not found.</p><button onClick={onBack}>Back</button></main>;
+ const builtIn=BUILTIN_RECIPES.find(r=>r.key===recipeKey);const custom=getCustomRecipe(recipeKey);const initial=builtIn?applyRecipeOverride(builtIn):custom;const [metric,setMetric]=useState(false);const [favorite,setFav]=useState(isFavorite(recipeKey));const [rating,setRating]=useState("5");const [notes,setNotes]=useState("");const [editing,setEditing]=useState(false);const [edit,setEdit]=useState({name:initial?.name||"",description:initial?.description||"",type:(initial?.type||"cocktail") as "cocktail"|"mocktail",instructions:initial?.instructions||""});const [version,setVersion]=useState(0);
+ const resolved=useMemo(()=>builtIn?applyRecipeOverride(builtIn):getCustomRecipe(recipeKey),[builtIn,recipeKey,version]);if(!resolved)return <main className="page"><p>Recipe not found.</p><button onClick={onBack}>Back</button></main>;const recipe:CatalogRecipe=resolved;
  function toggleFavorite(){const next=!favorite;setFavorite(recipe.key,next);setFav(next)}
  function madeThis(){addHistory({recipeKey:recipe.key,recipeName:recipe.name,rating:Number(rating),notes:notes||undefined});setNotes("");window.alert("Added to drink history.")}
  function saveEdit(){if(builtIn)saveRecipeOverride(recipe.key,edit);else saveCustomRecipe({...recipe,...edit});setEditing(false);setVersion(v=>v+1)}
