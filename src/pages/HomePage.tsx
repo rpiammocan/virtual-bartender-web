@@ -30,7 +30,6 @@ const groups = [
     actions: [
       ["🛒", "Shopping List", "Manage what to buy", "shopping", "wood"],
       ["◷", "History", "Drinks you've made", "history", "wood"],
-      ["▣", "Display Mode", "Room-friendly recipe display", "display", "wood"],
       ["⚙", "Admin / Settings", "Backups and application settings", "settings", "wood"],
     ],
   },
