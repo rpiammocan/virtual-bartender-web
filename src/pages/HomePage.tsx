@@ -45,6 +45,7 @@ export default function HomePage({ navigate }: Props) {
           <p className="eyebrow">Private • Offline • After Hours</p>
           <h1>Virtual Bartender</h1>
           <p className="subtitle">Mix it up.</p>
+          <p className="lede"><strong>Private by design:</strong> Your bar inventory and personal data are stored locally in this browser. Nothing is shared with or exposed to other Virtual Bartender users.</p>
         </div>
       </header>
 
