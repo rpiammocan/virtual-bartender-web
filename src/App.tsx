@@ -20,7 +20,6 @@ export default function App() {
   if(page==="tonight")return <div className="theme-tonight"><TonightsBarPage onHome={home}/></div>;
   if(page==="matches")return <div className="theme-matches"><WhatCanIMakePage onHome={home} onTonightBar={()=>setPage("tonight")} openRecipe={openRecipe}/></div>;
   if(page==="recipes")return <div className="theme-recipes"><RecipesPage onHome={home} openRecipe={openRecipe} manageRecipes={()=>setPage("recipe-manage")}/></div>;
-  if(page==="display")return <div className="theme-display"><RecipesPage onHome={home} openRecipe={openRecipe}/></div>;
   if(page==="recipe-manage")return <div className="theme-recipes"><RecipeManagePage onHome={home} onBack={()=>setPage("recipes")} openRecipe={openRecipe}/></div>;
   if(page==="favorites")return <div className="theme-favorites"><FavoritesPage onHome={home} openRecipe={openRecipe}/></div>;
   if(page==="shopping")return <div className="theme-shopping"><ShoppingPage onHome={home}/></div>;
