@@ -18,7 +18,7 @@ export default function App() {
   if(page==="home")return <HomePage navigate={setPage}/>;
   if(page==="mybar")return <div className="theme-mybar"><MyBarPage onHome={home}/></div>;
   if(page==="tonight")return <div className="theme-tonight"><TonightsBarPage onHome={home}/></div>;
-  if(page==="matches")return <div className="theme-matches"><WhatCanIMakePage onHome={home}/></div>;
+  if(page==="matches")return <div className="theme-matches"><WhatCanIMakePage onHome={home} onTonightBar={()=>setPage("tonight")} openRecipe={openRecipe}/></div>;
   if(page==="recipes")return <div className="theme-recipes"><RecipesPage onHome={home} openRecipe={openRecipe} manageRecipes={()=>setPage("recipe-manage")}/></div>;
   if(page==="display")return <div className="theme-display"><RecipesPage onHome={home} openRecipe={openRecipe}/></div>;
   if(page==="recipe-manage")return <div className="theme-recipes"><RecipeManagePage onHome={home} onBack={()=>setPage("recipes")} openRecipe={openRecipe}/></div>;
