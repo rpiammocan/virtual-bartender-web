@@ -1,39 +1,21 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { BUILTIN_RECIPES } from "../catalog/catalog";
 import { matchRecipes, type RecipeMatch } from "../catalog/recipes";
 import { getInventory } from "../storage/db";
 import type { InventoryItem } from "../storage/types";
 
-function MatchCard({ match }: { match: RecipeMatch }) {
-  const label = match.status === "make-now" ? "Make Now" : match.status === "almost-there" ? "Almost There" : `Missing ${match.missing.length}`;
-  return (
-    <article className={`recipe-match recipe-match--${match.status}`}>
-      <div><h3>{match.recipe.name}</h3><p>{match.recipe.description}</p></div>
-      <strong>{label}</strong>
-      {match.missing.length > 0 && <p>Missing: {match.missing.map((item) => item.ingredientName).join(", ")}</p>}
-      <details><summary>Recipe</summary><ul>{match.recipe.ingredients.map((item) => <li key={`${match.recipe.key}-${item.ingredientId}`}>{item.quantity} {item.unit} {item.ingredientName}{item.optional ? " (optional)" : ""}</li>)}</ul><p>{match.recipe.instructions}</p></details>
-    </article>
-  );
-}
+type Props = { onHome: () => void; onTonightBar: () => void; openRecipe: (key: string) => void };
+type Session = { id: string; name: string; session_date: string };
+type Context = { type: "my_bar"; label: "My Bar" } | { type: "session"; id: string; label: "Tonight's Bar" };
+const SESSION_KEY = "virtual-bartender-tonights-bar-sessions";
 
-export default function WhatCanIMakePage({ onHome }: { onHome: () => void }) {
-  const [inventory, setInventory] = useState<InventoryItem[]>([]);
-  const [filter, setFilter] = useState<"all" | "make-now" | "almost-there">("all");
-  useEffect(() => { getInventory("my_bar").then(setInventory).catch(console.error); }, []);
-  const matches = useMemo(() => matchRecipes(BUILTIN_RECIPES, inventory.filter((item) => item.have).map((item) => item.ingredientId)), [inventory]);
-  const visible = filter === "all" ? matches : matches.filter((match) => match.status === filter);
-  const makeNow = matches.filter((match) => match.status === "make-now").length;
-  const almost = matches.filter((match) => match.status === "almost-there").length;
+function sessions(): Session[] { try { return JSON.parse(localStorage.getItem(SESSION_KEY) || "[]") as Session[]; } catch { return []; } }
 
-  return <main className="page">
-    <header className="app-header"><button className="back-button" onClick={onHome}>← Home</button><div className="page-heading"><span className="page-heading-icon">🍸</span><h1>What Can I Make?</h1></div></header>
-    <p className="lede">Find drinks based on your current bar.</p>
-    <div className="toolbar" aria-label="Recipe match filters">
-      <button type="button" onClick={() => setFilter("all")}>All ({matches.length})</button>
-      <button type="button" onClick={() => setFilter("make-now")}>Make Now ({makeNow})</button>
-      <button type="button" onClick={() => setFilter("almost-there")}>Almost There ({almost})</button>
-    </div>
-    {inventory.length === 0 && <p className="empty-state">Add ingredients to My Bar to see what you can make.</p>}
-    <section className="recipe-match-list">{visible.map((match) => <MatchCard key={match.recipe.key} match={match} />)}</section>
-  </main>;
+export default function WhatCanIMakePage({ onHome, onTonightBar, openRecipe }: Props) {
+  const [context,setContext]=useState<Context|null>(null); const [matches,setMatches]=useState<RecipeMatch[]>([]); const [loading,setLoading]=useState(false); const [error,setError]=useState(""); const [tonight,setTonight]=useState<Session|null>(null);
+  useEffect(()=>{setTonight(sessions()[0]??null)},[]);
+  async function loadMatches(next:Context){setContext(next);setLoading(true);setError("");try{const inventory:InventoryItem[]=next.type==="my_bar"?await getInventory("my_bar"):await getInventory("tonight_bar",next.id);setMatches(matchRecipes(BUILTIN_RECIPES,inventory.filter(i=>i.have).map(i=>i.ingredientId)).filter(x=>x.status!=="missing"));}catch(err){setError(err instanceof Error?err.message:"Unable to find drinks.");}finally{setLoading(false)}}
+  const exact=matches.filter(x=>x.status==="exact"); const substitutions=matches.filter(x=>x.status==="substitution"); const variants=matches.filter(x=>x.status==="variant"); const almost=matches.filter(x=>x.status==="almost-there");
+  function render(items:RecipeMatch[],badge:string,className:string){if(!items.length)return <p className="empty-state">None right now.</p>;return <div className="result-list">{items.map(item=><article className="recipe-card" key={`${item.status}-${item.recipe.key}`}><div><button className="link-button" onClick={()=>openRecipe(item.recipe.key)}>{item.recipe.name}</button><p>{item.explanation}</p>{item.substitutions.length>0&&<small>Substitutions: {item.substitutions.join(", ")}</small>}{item.variantRecipe&&<small>Variant: {item.variantRecipe.name}</small>}{item.missing.length>0&&<small>Missing: {item.missing.map(x=>x.ingredientName).join(", ")}</small>}{item.optionalMissing.length>0&&<small>Optional missing: {item.optionalMissing.map(x=>x.ingredientName).join(", ")}</small>}</div><div className="match-actions"><span className={`status ${className}`}>{badge}</span><button className="link-button" onClick={()=>openRecipe(item.recipe.key)}>View Recipe →</button></div></article>)}</div>}
+  return <main className="page"><header className="app-header"><button className="back-button" onClick={onHome}>← Home</button><div className="page-heading"><span className="page-heading-icon">🍸</span><h1>What Can I Make?</h1></div></header>{!context?<section><p className="lede">Choose which inventory you want to use.</p><div className="context-grid"><button className="context-card" onClick={()=>void loadMatches({type:"my_bar",label:"My Bar"})}><strong>My Bar</strong><span>Use your permanent inventory</span></button><button className="context-card" onClick={()=>tonight?void loadMatches({type:"session",id:tonight.id,label:"Tonight's Bar"}):onTonightBar()}><strong>Tonight's Bar</strong><span>{tonight?`Use tonight's inventory • ${tonight.session_date}`:"Set up tonight's inventory"}</span></button></div></section>:<><div className="toolbar"><div><small>Using</small><strong className="context-label">{context.label}</strong></div><button className="link-button" onClick={()=>{setContext(null);setMatches([])}}>Change Bar</button></div>{loading?<p>Checking recipes…</p>:<><section className="result-section"><h2>🟢 Exact <span>{exact.length}</span></h2>{render(exact,"Can Make","makeable")}</section><section className="result-section"><h2>🔵 With Substitution <span>{substitutions.length}</span></h2>{render(substitutions,"Substitution","substitution")}</section><section className="result-section"><h2>🟣 With Variant <span>{variants.length}</span></h2>{render(variants,"Variant","variant")}</section><section className="result-section"><h2>🟡 Almost There <span>{almost.length}</span></h2>{render(almost,"Almost There","almost")}</section></>}</>}{error&&<p className="error">{error}</p>}</main>;
 }
