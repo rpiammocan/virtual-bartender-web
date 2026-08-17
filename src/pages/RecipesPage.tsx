@@ -1,0 +1,10 @@
+import { useMemo, useState } from "react";
+import { BUILTIN_RECIPES } from "../catalog/catalog";
+import { applyRecipeOverride, isRecipeHidden } from "../storage/recipeUserData";
+
+type Props={onHome:()=>void;openRecipe:(key:string)=>void;manageRecipes?:()=>void};
+export default function RecipesPage({onHome,openRecipe,manageRecipes}:Props){
+ const [query,setQuery]=useState("");const [type,setType]=useState("all");const [sort,setSort]=useState("name");
+ const filtered=useMemo(()=>{const q=query.trim().toLowerCase();let rows=BUILTIN_RECIPES.filter(r=>!isRecipeHidden(r.key)).map(applyRecipeOverride).filter(r=>!q||r.name.toLowerCase().includes(q));if(type!=="all")rows=rows.filter(r=>r.type===type);return [...rows].sort((a,b)=>sort==="type"?a.type.localeCompare(b.type)||a.name.localeCompare(b.name):a.name.localeCompare(b.name));},[query,type,sort]);
+ return <main className="page theme-recipes"><header className="app-header"><button className="back-button" onClick={onHome}>← Home</button><div className="page-heading"><span className="page-heading-icon">📖</span><h1>Recipes</h1></div></header><div className="theme-prop recipe-ledger" aria-hidden="true"><strong>Bootlegger's Recipe Book</strong><span>House formulas • private stock</span></div><div className="toolbar"><input className="wide-input" placeholder="Search recipes..." value={query} onChange={e=>setQuery(e.target.value)}/><select value={type} onChange={e=>setType(e.target.value)}><option value="all">All</option><option value="cocktail">Cocktails</option><option value="mocktail">Mocktails</option></select><select value={sort} onChange={e=>setSort(e.target.value)}><option value="name">Sort: Name</option><option value="type">Sort: Type</option></select>{manageRecipes&&<button className="primary" onClick={manageRecipes}>＋ Add / Import Recipe</button>}</div><p className="lede">{filtered.length} recipes</p><section className="result-list">{filtered.map(r=><button className="recipe-list-button" key={r.key} onClick={()=>openRecipe(r.key)}><strong>{r.name}</strong><span>{r.type} • Built-in</span></button>)}</section></main>;
+}
