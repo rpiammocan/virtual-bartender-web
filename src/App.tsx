@@ -1,31 +1,23 @@
 import { useState } from "react";
+import HomePage from "./pages/HomePage";
 import MyBarPage from "./pages/MyBarPage";
 import WhatCanIMakePage from "./pages/WhatCanIMakePage";
 
-type Screen = "home" | "my-bar" | "make";
-
 export default function App() {
-  const [screen, setScreen] = useState<Screen>("home");
+  const [page, setPage] = useState("home");
+  const home = () => setPage("home");
 
-  if (screen === "my-bar") return <MyBarPage onHome={() => setScreen("home")} />;
-  if (screen === "make") return <WhatCanIMakePage />;
+  if (page === "home") return <HomePage navigate={setPage} />;
+  if (page === "mybar") return <div className="theme-mybar"><MyBarPage onHome={home} /></div>;
+  if (page === "matches") return <div className="theme-matches"><WhatCanIMakePage onHome={home} /></div>;
 
   return (
-    <main className="page home-page">
-      <header className="hero">
-        <p className="eyebrow">Browser Edition</p>
+    <main className="page">
+      <section className="parity-placeholder">
+        <p className="eyebrow">Parity restoration in progress</p>
         <h1>Virtual Bartender</h1>
-        <p>Your bar inventory and recipe matching stay on this device, in this browser.</p>
-      </header>
-      <section className="home-actions">
-        <button type="button" onClick={() => setScreen("my-bar")}>
-          <strong>My Bar</strong>
-          <span>Add, remove, import, and export your ingredients.</span>
-        </button>
-        <button type="button" onClick={() => setScreen("make")}>
-          <strong>What Can I Make?</strong>
-          <span>Match your bar against the complete built-in recipe catalog.</span>
-        </button>
+        <p>This screen is being restored from the established Virtual Bartender edition.</p>
+        <button className="back-button" type="button" onClick={home}>← Home</button>
       </section>
     </main>
   );
