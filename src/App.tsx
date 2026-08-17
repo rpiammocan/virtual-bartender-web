@@ -5,6 +5,7 @@ import TonightsBarPage from "./pages/TonightsBarPage";
 import WhatCanIMakePage from "./pages/WhatCanIMakePage";
 import RecipesPage from "./pages/RecipesPage";
 import RecipeDetailPage from "./pages/RecipeDetailPage";
+import RecipeManagePage from "./pages/RecipeManagePage";
 import FavoritesPage from "./pages/FavoritesPage";
 import ShoppingPage from "./pages/ShoppingPage";
 import HistoryPage from "./pages/HistoryPage";
@@ -18,6 +19,7 @@ export default function App() {
   if(page==="tonight")return <div className="theme-tonight"><TonightsBarPage onHome={home}/></div>;
   if(page==="matches")return <div className="theme-matches"><WhatCanIMakePage onHome={home}/></div>;
   if(page==="recipes")return <RecipesPage onHome={home} openRecipe={openRecipe} manageRecipes={()=>setPage("recipe-manage")}/>;
+  if(page==="recipe-manage")return <RecipeManagePage onHome={home} onBack={()=>setPage("recipes")} openRecipe={openRecipe}/>;
   if(page==="favorites")return <FavoritesPage onHome={home} openRecipe={openRecipe}/>;
   if(page==="shopping")return <ShoppingPage onHome={home}/>;
   if(page==="history")return <HistoryPage onHome={home}/>;
