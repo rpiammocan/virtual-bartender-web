@@ -3,6 +3,7 @@ import { BUILTIN_RECIPES } from "../catalog/catalog";
 import { matchRecipes } from "../catalog/recipes";
 import { getInventory } from "../storage/db";
 import { applyRecipeOverride, isRecipeHidden } from "../storage/recipeUserData";
+import type { InventoryItem } from "../storage/types";
 
 type Props = { onHome: () => void; openRecipe: (key: string) => void };
 type Session = { id: string; name: string; session_date: string };
@@ -26,13 +27,15 @@ export default function SurprisePage({ onHome, openRecipe }: Props) {
   async function surprise() {
     try {
       setError("");
-      const inventory = context === "my_bar"
-        ? await getInventory("my_bar")
-        : tonight
-          ? await getInventory("tonight_bar", tonight.id)
-          : Promise.reject(new Error("Create a Tonight's Bar first."));
+      let inventory: InventoryItem[];
+      if (context === "my_bar") {
+        inventory = await getInventory("my_bar");
+      } else {
+        if (!tonight) throw new Error("Create a Tonight's Bar first.");
+        inventory = await getInventory("tonight_bar", tonight.id);
+      }
 
-      const available = inventory.filter(i => i.have).map(i => i.ingredientId);
+      const available = inventory.filter((item) => item.have).map((item) => item.ingredientId);
       const eligible = matchRecipes(
         BUILTIN_RECIPES.filter(recipe => !isRecipeHidden(recipe.key)),
         available,
