@@ -28,18 +28,17 @@ export default function SurprisePage({ onHome, openRecipe }: Props) {
     try {
       setError("");
       let inventory: InventoryItem[];
-      if (context === "my_bar") {
-        inventory = await getInventory("my_bar");
-      } else {
+      if (context === "my_bar") inventory = await getInventory("my_bar");
+      else {
         if (!tonight) throw new Error("Create a Tonight's Bar first.");
         inventory = await getInventory("tonight_bar", tonight.id);
       }
 
-      const available = inventory.filter((item) => item.have).map((item) => item.ingredientId);
+      const available = inventory.filter(i => i.have).map(i => i.ingredientId);
       const eligible = matchRecipes(
         BUILTIN_RECIPES.filter(recipe => !isRecipeHidden(recipe.key)),
         available,
-      ).filter(match => match.status === "make-now");
+      ).filter(match => match.status === "exact" || match.status === "substitution" || match.status === "variant");
 
       if (!eligible.length) throw new Error("No eligible drinks found.");
       const picked = eligible[Math.floor(Math.random() * eligible.length)].recipe;
@@ -54,28 +53,9 @@ export default function SurprisePage({ onHome, openRecipe }: Props) {
 
   return (
     <main className="page">
-      <header className="app-header">
-        <button className="back-button" onClick={onHome}>← Home</button>
-        <div className="page-heading"><span className="page-heading-icon">🎲</span><h1>Surprise Me</h1></div>
-      </header>
-
-      <div className="toolbar">
-        <select value={context} onChange={(e) => setContext(e.target.value)}>
-          <option value="my_bar">My Bar</option>
-          <option value="tonight" disabled={!tonight}>Tonight's Bar</option>
-        </select>
-        <button className="primary" onClick={() => void surprise()}>Surprise Me</button>
-      </div>
-
-      {displayRecipe && (
-        <section className="surprise-card">
-          <p className="eyebrow">Your drink</p>
-          <h2>{displayRecipe.name}</h2>
-          <p>Picked at random from drinks you can make with the selected bar.</p>
-          <button onClick={() => openRecipe(displayRecipe.key)}>View Recipe</button>
-        </section>
-      )}
-
+      <header className="app-header"><button className="back-button" onClick={onHome}>← Home</button><div className="page-heading"><span className="page-heading-icon">🎲</span><h1>Surprise Me</h1></div></header>
+      <div className="toolbar"><select value={context} onChange={(e) => setContext(e.target.value)}><option value="my_bar">My Bar</option><option value="tonight" disabled={!tonight}>Tonight's Bar</option></select><button className="primary" onClick={() => void surprise()}>Surprise Me</button></div>
+      {displayRecipe && <section className="surprise-card"><p className="eyebrow">Your drink</p><h2>{displayRecipe.name}</h2><p>Picked at random from drinks you can make with the selected bar.</p><button onClick={() => openRecipe(displayRecipe.key)}>View Recipe</button></section>}
       {error && <p className="error">{error}</p>}
     </main>
   );
