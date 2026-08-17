@@ -7,6 +7,7 @@ import RecipesPage from "./pages/RecipesPage";
 import RecipeDetailPage from "./pages/RecipeDetailPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import ShoppingPage from "./pages/ShoppingPage";
+import HistoryPage from "./pages/HistoryPage";
 
 export default function App() {
   const [page,setPage]=useState("home");const [recipeKey,setRecipeKey]=useState<string|null>(null);const home=()=>setPage("home");
@@ -18,6 +19,7 @@ export default function App() {
   if(page==="recipes")return <RecipesPage onHome={home} openRecipe={openRecipe} manageRecipes={()=>setPage("recipe-manage")}/>;
   if(page==="favorites")return <FavoritesPage onHome={home} openRecipe={openRecipe}/>;
   if(page==="shopping")return <ShoppingPage onHome={home}/>;
+  if(page==="history")return <HistoryPage onHome={home}/>;
   if(page==="recipe-detail"&&recipeKey)return <RecipeDetailPage recipeKey={recipeKey} onHome={home} onBack={()=>setPage("recipes")}/>;
   return <main className="page"><section className="parity-placeholder"><p className="eyebrow">Parity restoration in progress</p><h1>Virtual Bartender</h1><p>This screen is being restored from the established Virtual Bartender edition.</p><button className="back-button" type="button" onClick={home}>← Home</button></section></main>;
 }
