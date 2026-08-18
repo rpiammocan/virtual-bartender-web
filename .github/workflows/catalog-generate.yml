@@ -3,7 +3,7 @@ name: Generate catalog
 on:
   push:
     branches:
-      - agent/browser-native-v1
+      - main
     paths:
       - 'tools/generate_catalog.py'
       - '.github/workflows/catalog-generate.yml'
@@ -16,10 +16,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out branch
+      - name: Check out main
         uses: actions/checkout@v4
         with:
-          ref: agent/browser-native-v1
+          ref: main
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -36,4 +36,4 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add src/catalog/generatedCatalog.ts
           git commit -m 'Generate canonical browser recipe catalog'
-          git push origin HEAD:agent/browser-native-v1
+          git push origin HEAD:main
