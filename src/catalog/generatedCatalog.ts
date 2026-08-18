@@ -8933,6 +8933,1063 @@ const RAW = [
         "optional": false
       }
     ]
+  },
+  {
+    "key": "canchanchara",
+    "name": "Canchanchara",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Cuban aguardiente with lime, honey, and water.",
+    "instructions": "Dissolve the honey with water and lime juice in a rocks glass. Add cracked ice, pour in the aguardiente, and stir vigorously.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/canchanchara/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Cuban Aguardiente",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Raw Honey",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Water",
+        "quantity": 50.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "chartreuse-swizzle",
+    "name": "Chartreuse Swizzle",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Green Chartreuse, pineapple, lime, and falernum over pebble ice.",
+    "instructions": "Add all ingredients to a tall glass with pebble ice and swizzle vigorously. Top with more pebble ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Green Chartreuse",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Pineapple Juice",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Falernum",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "dons-special-daiquiri",
+    "name": "Don's Special Daiquiri",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A tropical daiquiri with Jamaican and Cuban-style rum, passion fruit, lime, and honey.",
+    "instructions": "Blend briefly with crushed ice and pour into a footed glass. Add more crushed ice to fill.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gold Jamaican Rum",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "White Rum",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Passion Fruit Syrup",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Honey Syrup",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "fernandito",
+    "name": "Fernandito",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Fernet and cola over ice.",
+    "instructions": "Pour Fernet over ice in a rocks glass, fill with cola, and stir gently.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/fernandito/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Fernet",
+        "quantity": 50.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cola",
+        "quantity": 1.0,
+        "unit": "top",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "french-martini",
+    "name": "French Martini",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Vodka, raspberry liqueur, and pineapple juice.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/french-martini/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Vodka",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Raspberry Liqueur",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Pineapple Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "gin-basil-smash",
+    "name": "Gin Basil Smash",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A fresh basil gin sour.",
+    "instructions": "Add all ingredients to a shaker with ice, shake vigorously, and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Basil Leaves",
+        "quantity": 10.0,
+        "unit": "pc",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "grand-margarita",
+    "name": "Grand Margarita",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Tequila, Grand Marnier, and lime.",
+    "instructions": "Shake all ingredients hard with ice and strain into an ice-filled rocks glass, optionally with a salted rim.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/grand-margarita/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Blanco Tequila",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Grand Marnier",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "iba-tiki",
+    "name": "IBA Tiki",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A rich tropical rum cocktail with nut liqueurs, passion fruit, pineapple, lime, and ginger.",
+    "instructions": "Muddle the ginger in a shaker, add the remaining ingredients and ice, shake vigorously, then strain over pebble ice in a tiki glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/iba-tiki/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Dark Rum",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Smoky Rum",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Amaretto",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Frangelico",
+        "quantity": 5.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Maraschino Liqueur",
+        "quantity": 5.0,
+        "unit": "drop",
+        "optional": false
+      },
+      {
+        "ingredientName": "Passion Fruit Puree",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Pineapple Juice",
+        "quantity": 90.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Ginger Slice",
+        "quantity": 1.0,
+        "unit": "pc",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "illegal",
+    "name": "Illegal",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A mezcal sour with overproof rum, falernum, maraschino, and lime.",
+    "instructions": "Shake all ingredients vigorously with ice and strain into a chilled cocktail glass or serve over fresh ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/illegal/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Mezcal",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Overproof White Rum",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Falernum",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Maraschino Liqueur",
+        "quantity": 1.0,
+        "unit": "barspoon",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Egg White",
+        "quantity": 3.0,
+        "unit": "drop",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "key": "jungle-bird",
+    "name": "Jungle Bird",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Blackstrap rum, Campari, pineapple, lime, and demerara syrup.",
+    "instructions": "Shake all ingredients with ice and strain into a rocks glass filled with fresh ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/jungle-bird/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Blackstrap Rum",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Campari",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Pineapple Juice",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Demerara Syrup",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "missionarys-downfall",
+    "name": "Missionary's Downfall",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A blended rum drink with peach, lime, honey, mint, and pineapple.",
+    "instructions": "Blend all ingredients with crushed ice until smooth and pour into a large chilled glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "White Rum",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Peach Brandy",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Honey Mix",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Mint Leaves",
+        "quantity": 10.0,
+        "unit": "pc",
+        "optional": false
+      },
+      {
+        "ingredientName": "Pineapple Chunks",
+        "quantity": 4.0,
+        "unit": "pc",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "naked-and-famous",
+    "name": "Naked and Famous",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Equal parts mezcal, yellow Chartreuse, Aperol, and lime.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Mezcal",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Yellow Chartreuse",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Aperol",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "new-york-sour",
+    "name": "New York Sour",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A rye whiskey sour finished with a red wine float.",
+    "instructions": "Shake the whiskey, syrup, lemon, and optional egg white with ice. Strain over fresh ice and float the red wine on top.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/new-york-sour/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Rye Whiskey",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Egg White",
+        "quantity": 3.0,
+        "unit": "drop",
+        "optional": true
+      },
+      {
+        "ingredientName": "Red Wine",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "old-cuban",
+    "name": "Old Cuban",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A minty aged-rum sour topped with sparkling wine.",
+    "instructions": "Shake everything except the sparkling wine with ice and strain into a chilled cocktail glass. Top with sparkling wine.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/old-cuban/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Mint Leaves",
+        "quantity": 7.0,
+        "unit": "pc",
+        "optional": false
+      },
+      {
+        "ingredientName": "Aged Rum",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 2.0,
+        "unit": "dash",
+        "optional": false
+      },
+      {
+        "ingredientName": "Prosecco",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "pisco-punch",
+    "name": "Pisco Punch",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Pisco with pineapple, lemon, syrup, white wine, and clove.",
+    "instructions": "Gently mash the cloves with syrup, add pisco, pineapple, and lemon, then shake with ice. Double strain, add the white wine, and stir gently.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/pisco-punch/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Pisco",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Pineapple Juice",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Dry White Wine",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cloves",
+        "quantity": 3.0,
+        "unit": "pc",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "porn-star-martini",
+    "name": "Porn Star Martini",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Vanilla vodka and passion fruit served with Champagne on the side.",
+    "instructions": "Shake the vodka, passion fruit liqueur, puree, and vanilla sugar with ice and double strain into a chilled cocktail glass. Serve the Champagne separately.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Vanilla Vodka",
+        "quantity": 50.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Passion Fruit Liqueur",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Passion Fruit Puree",
+        "quantity": 50.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Vanilla Sugar",
+        "quantity": 2.0,
+        "unit": "barspoon",
+        "optional": false
+      },
+      {
+        "ingredientName": "Champagne",
+        "quantity": 50.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "russian-spring-punch",
+    "name": "Russian Spring Punch",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Vodka, lemon, cassis, syrup, and sparkling wine.",
+    "instructions": "Shake everything except the sparkling wine with ice, strain into an ice-filled tall glass, and top with sparkling wine.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Vodka",
+        "quantity": 25.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 25.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Creme de Cassis",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sparkling Wine",
+        "quantity": 1.0,
+        "unit": "top",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "sherry-cobbler",
+    "name": "Sherry Cobbler",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Two styles of sherry with sugar and fresh citrus.",
+    "instructions": "Shake the sherries, sugar, and citrus wheels briskly with ice. Strain into a cup filled with crushed ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Amontillado Sherry",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Palo Cortado Sherry",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Wheel",
+        "quantity": 0.5,
+        "unit": "pc",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Wheel",
+        "quantity": 0.5,
+        "unit": "pc",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "spicy-fifty",
+    "name": "Spicy Fifty",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Vanilla vodka with elderflower, lime, honey, and chili.",
+    "instructions": "Shake all ingredients with ice and double strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Vanilla Vodka",
+        "quantity": 50.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Elderflower Cordial",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Honey Syrup",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Red Chili Pepper",
+        "quantity": 2.0,
+        "unit": "pc",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "suffering-bastard",
+    "name": "Suffering Bastard",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Cognac and gin with lime, bitters, and ginger beer.",
+    "instructions": "Shake everything except the ginger beer with ice. Pour into a tall glass and top with ginger beer.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Cognac",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Gin",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 2.0,
+        "unit": "dash",
+        "optional": false
+      },
+      {
+        "ingredientName": "Ginger Beer",
+        "quantity": 1.0,
+        "unit": "top",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "three-dots-and-a-dash",
+    "name": "Three Dots and a Dash",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A tiki rum blend with falernum, allspice, citrus, honey, and bitters.",
+    "instructions": "Flash blend all ingredients with crushed ice, pour into a footed glass, and add more crushed ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Rhum Agricole",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Aged Rum",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Falernum",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Allspice Dram",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Honey Syrup",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 2.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "tipperary",
+    "name": "Tipperary",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Irish whiskey with sweet vermouth, Green Chartreuse, and bitters.",
+    "instructions": "Stir all ingredients with ice until chilled and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tipperary/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Irish Whiskey",
+        "quantity": 50.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sweet Vermouth",
+        "quantity": 25.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Green Chartreuse",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 2.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "tommys-margarita",
+    "name": "Tommy's Margarita",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A Margarita variation using agave nectar instead of orange liqueur.",
+    "instructions": "Shake all ingredients with ice and strain into an ice-filled rocks glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+    "parentKey": "margarita",
+    "ingredients": [
+      {
+        "ingredientName": "Blanco Tequila",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Agave Nectar",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "trinidad-sour",
+    "name": "Trinidad Sour",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A bitters-forward sour with orgeat, lemon, and rye.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orgeat Syrup",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Rye Whiskey",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "ve-n-to",
+    "name": "Ve.N.To",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "White grappa with lemon, chamomile-honey sweetness, and optional egg white.",
+    "instructions": "Shake all ingredients vigorously with ice and strain into a small rocks glass filled with fresh ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/ve-n-to/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "White Grappa",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Chamomile Honey Mix",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Chamomile Cordial",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Egg White",
+        "quantity": 3.0,
+        "unit": "drop",
+        "optional": true
+      }
+    ]
   }
 ] as const;
 
