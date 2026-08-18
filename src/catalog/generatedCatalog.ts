@@ -8304,6 +8304,635 @@ const RAW = [
         "optional": false
       }
     ]
+  },
+  {
+    "key": "caipirinha",
+    "name": "Caipirinha",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Brazilian cachaça with fresh lime and sugar.",
+    "instructions": "Place the lime and sugar in a rocks glass and gently muddle to release the juice and oils. Fill with ice, add cachaça, and stir well.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/caipirinha/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Cachaca",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime",
+        "quantity": 1.0,
+        "unit": "pc",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": 4.0,
+        "unit": "tsp",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "cardinale",
+    "name": "Cardinale",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A dry gin, vermouth, and Campari aperitif.",
+    "instructions": "Stir all ingredients with ice until chilled, then strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/cardinale/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 40.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Dry Vermouth",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Campari",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "corpse-reviver-2",
+    "name": "Corpse Reviver #2",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Gin, orange liqueur, aromatized wine, lemon, and absinthe.",
+    "instructions": "Shake the liquid ingredients with ice and strain into a chilled cocktail glass lightly rinsed with absinthe.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cointreau",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lillet Blanc",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Absinthe",
+        "quantity": 1.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "french-connection",
+    "name": "French Connection",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Cognac softened with amaretto.",
+    "instructions": "Build the ingredients over ice in a rocks glass and stir gently until chilled.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/french-connection/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Cognac",
+        "quantity": 35.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Amaretto",
+        "quantity": 35.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "garibaldi",
+    "name": "Garibaldi",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Campari lengthened with fresh orange juice.",
+    "instructions": "Build Campari and orange juice over ice in a highball glass and stir gently.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/garibaldi/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Campari",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Juice",
+        "quantity": 120.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "grasshopper",
+    "name": "Grasshopper",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A creamy mint and cacao after-dinner cocktail.",
+    "instructions": "Shake all ingredients with ice until well chilled and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/grasshopper/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Green Creme de Menthe",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "White Creme de Cacao",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cream",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "hemingway-special",
+    "name": "Hemingway Special",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A dry rum sour with grapefruit and maraschino.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/hemingway-special/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "White Rum",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Grapefruit Juice",
+        "quantity": 40.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Maraschino Liqueur",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "horses-neck",
+    "name": "Horse’s Neck",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Brandy and ginger ale with aromatic bitters.",
+    "instructions": "Build the brandy and ginger ale over ice in a highball glass. Add bitters and stir gently.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/horses-neck/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Brandy",
+        "quantity": 40.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Ginger Ale",
+        "quantity": 120.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 1.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "kir",
+    "name": "Kir",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Dry white wine flavored with crème de cassis.",
+    "instructions": "Pour crème de cassis into a wine glass, add well-chilled dry white wine, and stir gently.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/kir/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Creme de Cassis",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Dry White Wine",
+        "quantity": 90.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "lemon-drop-martini",
+    "name": "Lemon Drop Martini",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A bright vodka cocktail with citrus and orange liqueur.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Vodka",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Triple Sec",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "long-island-iced-tea",
+    "name": "Long Island Iced Tea",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A multi-spirit highball balanced with citrus, syrup, and cola.",
+    "instructions": "Add the spirits, lemon juice, and syrup to an ice-filled highball glass. Stir, top with cola, and stir gently once more.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Vodka",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Blanco Tequila",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "White Rum",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Gin",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Triple Sec",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 25.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cola",
+        "quantity": 1.0,
+        "unit": "top",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "mimosa",
+    "name": "Mimosa",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Sparkling wine and orange juice.",
+    "instructions": "Pour the chilled orange juice into a flute and gently add the sparkling wine.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mimosa/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Prosecco",
+        "quantity": 75.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Juice",
+        "quantity": 75.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "pisco-sour",
+    "name": "Pisco Sour",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Pisco with lemon, syrup, egg white, and aromatic bitters.",
+    "instructions": "Shake pisco, lemon juice, syrup, and egg white vigorously, then shake again with ice. Strain into a chilled glass and finish with bitters on the foam.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/pisco-sour/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Pisco",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Egg White",
+        "quantity": 1.0,
+        "unit": "pc",
+        "optional": false
+      },
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 3.0,
+        "unit": "dash",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "key": "rabo-de-galo",
+    "name": "Rabo de Galo",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A Brazilian cachaça aperitif with sweet vermouth and Cynar-style bitterness.",
+    "instructions": "Stir the ingredients with ice until chilled and strain into a small chilled glass or serve over fresh ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Cachaca",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sweet Vermouth",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cynar",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "singapore-sling",
+    "name": "Singapore Sling",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A complex gin sling with cherry, citrus, pineapple, herbal liqueur, and bitters.",
+    "instructions": "Shake all ingredients with ice and strain into an ice-filled highball glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/singapore-sling/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cherry Liqueur",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cointreau",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Benedictine",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Pineapple Juice",
+        "quantity": 120.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Grenadine",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 1.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "vesper",
+    "name": "Vesper",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A strong gin and vodka cocktail with Lillet Blanc.",
+    "instructions": "Shake all ingredients with ice until very cold and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/vesper/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Vodka",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lillet Blanc",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "zombie",
+    "name": "Zombie",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A powerful tropical rum cocktail with citrus, syrups, liqueur, and bitters.",
+    "instructions": "Shake the ingredients with ice and strain into a tall glass filled with crushed or fresh ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/zombie/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "White Rum",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Dark Rum",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Falernum",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Grapefruit Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Demerara Syrup",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cinnamon Syrup",
+        "quantity": 5.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Grenadine",
+        "quantity": 5.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Angostura Bitters",
+        "quantity": 1.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
   }
 ] as const;
 
