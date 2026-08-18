@@ -23,6 +23,7 @@ SOURCES = [
     ("catalog_v3.py", "RECIPES_V3"),
     ("catalog_v4.py", "RECIPES_V4"),
     ("catalog_v5.py", "RECIPES_V5"),
+    ("catalog_v6.py", "RECIPES_V6"),
 ]
 
 
@@ -48,8 +49,6 @@ def literal_assignments(source: str) -> dict[str, Any]:
 
 
 def find_base_recipes(assignments: dict[str, Any]) -> list[dict[str, Any]]:
-    # Prefer explicitly recipe-named literal lists, while remaining tolerant
-    # of the historical seed file's naming.
     candidates: list[tuple[str, list[dict[str, Any]]]] = []
     for name, value in assignments.items():
         if not isinstance(value, list) or not value:
