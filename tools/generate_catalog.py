@@ -25,6 +25,7 @@ SOURCES = [
     ("catalog_v5.py", "RECIPES_V5"),
     ("catalog_v6.py", "RECIPES_V6"),
     ("catalog_v7.py", "RECIPES_V7"),
+    ("catalog_v8.py", "RECIPES_V8"),
 ]
 
 
@@ -68,12 +69,7 @@ def find_base_recipes(assignments: dict[str, Any]) -> list[dict[str, Any]]:
 def normalize_recipe(raw: dict[str, Any]) -> dict[str, Any]:
     ingredients = []
     for name, quantity, unit, optional in raw["ingredients"]:
-        ingredients.append({
-            "ingredientName": name,
-            "quantity": quantity,
-            "unit": unit,
-            "optional": bool(optional),
-        })
+        ingredients.append({"ingredientName": name, "quantity": quantity, "unit": unit, "optional": bool(optional)})
     return {
         "key": raw["key"],
         "name": raw["name"],
@@ -102,26 +98,16 @@ def validate(recipes: list[dict[str, Any]]) -> None:
     duplicates = sorted(key for key, count in Counter(keys).items() if count > 1)
     if duplicates:
         raise RuntimeError(f"Duplicate recipe keys: {', '.join(duplicates)}")
-
     key_set = set(keys)
-    missing_parents = sorted({
-        recipe["parentKey"]
-        for recipe in recipes
-        if recipe.get("parentKey") and recipe["parentKey"] not in key_set
-    })
+    missing_parents = sorted({recipe["parentKey"] for recipe in recipes if recipe.get("parentKey") and recipe["parentKey"] not in key_set})
     if missing_parents:
         raise RuntimeError(f"Missing parent recipes: {', '.join(missing_parents)}")
-
     for recipe in recipes:
         if not recipe["ingredients"]:
             raise RuntimeError(f"Recipe has no ingredients: {recipe['key']}")
         for ingredient in recipe["ingredients"]:
             if not ingredient["ingredientName"]:
                 raise RuntimeError(f"Blank ingredient in recipe: {recipe['key']}")
-
-
-def ts_string(value: Any) -> str:
-    return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
 
 
 def emit_typescript(recipes: list[dict[str, Any]]) -> str:
@@ -147,20 +133,14 @@ def emit_typescript(recipes: list[dict[str, Any]]) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--output",
-        default="src/catalog/generatedCatalog.ts",
-        help="TypeScript output path",
-    )
+    parser.add_argument("--output", default="src/catalog/generatedCatalog.ts", help="TypeScript output path")
     parser.add_argument("--check-only", action="store_true")
     args = parser.parse_args()
-
     recipes = load_catalog()
     validate(recipes)
     cocktails = sum(recipe["type"] == "cocktail" for recipe in recipes)
     mocktails = sum(recipe["type"] == "mocktail" for recipe in recipes)
     print(f"Validated {len(recipes)} recipes: {cocktails} cocktails, {mocktails} mocktails")
-
     if not args.check_only:
         output = pathlib.Path(args.output)
         output.parent.mkdir(parents=True, exist_ok=True)
