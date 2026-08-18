@@ -7608,6 +7608,702 @@ const RAW = [
         "optional": false
       }
     ]
+  },
+  {
+    "key": "angel-face",
+    "name": "Angel Face",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A spirit-forward gin, apricot brandy, and Calvados classic.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/angel-face/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Apricot Brandy",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Calvados",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "between-the-sheets",
+    "name": "Between the Sheets",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Rum and Cognac brightened with orange liqueur and lemon.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "White Rum",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cognac",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Triple Sec",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "brandy-crusta",
+    "name": "Brandy Crusta",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Brandy with maraschino, citrus, syrup, and aromatic bitters.",
+    "instructions": "Stir the liquid ingredients with ice and strain into a sugar-rimmed cocktail glass. Add a broad citrus peel inside the glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Brandy",
+        "quantity": 52.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Maraschino Liqueur",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Liqueur",
+        "quantity": 1.0,
+        "unit": "barspoon",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 1.0,
+        "unit": "barspoon",
+        "optional": false
+      },
+      {
+        "ingredientName": "Aromatic Bitters",
+        "quantity": 2.0,
+        "unit": "dash",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": 1.0,
+        "unit": "rim",
+        "optional": true
+      },
+      {
+        "ingredientName": "Citrus Peel",
+        "quantity": 1.0,
+        "unit": "pc",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "key": "casino",
+    "name": "Casino",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Old Tom gin with maraschino, lemon, and orange bitters.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled rocks glass over fresh ice.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/casino/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Old Tom Gin",
+        "quantity": 40.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Maraschino Liqueur",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Bitters",
+        "quantity": 2.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "clover-club",
+    "name": "Clover Club",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A tart raspberry gin sour with egg white.",
+    "instructions": "Shake all ingredients thoroughly with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/clover-club/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Raspberry Syrup",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Egg White",
+        "quantity": 3.0,
+        "unit": "drop",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "gin-fizz",
+    "name": "Gin Fizz",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A refreshing gin sour lengthened with soda.",
+    "instructions": "Shake gin, lemon juice, and syrup with ice. Strain into a tall glass without ice and finish with a splash of soda water.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/gin-fizz/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Soda Water",
+        "quantity": 1.0,
+        "unit": "splash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "hanky-panky",
+    "name": "Hanky Panky",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Gin and sweet vermouth sharpened with Fernet.",
+    "instructions": "Stir all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/hanky-panky/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "London Dry Gin",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sweet Vermouth",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Fernet",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "martinez",
+    "name": "Martinez",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Gin and sweet vermouth with maraschino and orange bitters.",
+    "instructions": "Stir all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/martinez/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "London Dry Gin",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sweet Vermouth",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Maraschino Liqueur",
+        "quantity": 1.0,
+        "unit": "barspoon",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Bitters",
+        "quantity": 2.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "mary-pickford",
+    "name": "Mary Pickford",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "White rum with pineapple, maraschino, and grenadine.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mary-pickford/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "White Rum",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Pineapple Juice",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Maraschino Liqueur",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Grenadine",
+        "quantity": 5.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "monkey-gland",
+    "name": "Monkey Gland",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Gin and orange juice accented by absinthe and grenadine.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/monkey-gland/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Juice",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Absinthe",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientName": "Grenadine",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "paradise",
+    "name": "Paradise",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Gin, apricot brandy, and orange juice.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/paradise/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Apricot Brandy",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "porto-flip",
+    "name": "Porto Flip",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A rich brandy and tawny port flip.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass. Finish with freshly grated nutmeg if desired.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/porto-flip/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Brandy",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Tawny Port",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Egg Yolk",
+        "quantity": 10.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Nutmeg",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "key": "ramos-fizz",
+    "name": "Ramos Fizz",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A creamy citrus gin fizz with egg white and orange flower water.",
+    "instructions": "Shake everything except soda water very thoroughly with ice. Strain, shake again without ice for a dense foam, pour into a highball glass, and top with soda water.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 45.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lime Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Simple Syrup",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cream",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Egg White",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Flower Water",
+        "quantity": 3.0,
+        "unit": "dash",
+        "optional": false
+      },
+      {
+        "ingredientName": "Vanilla Extract",
+        "quantity": 2.0,
+        "unit": "drop",
+        "optional": false
+      },
+      {
+        "ingredientName": "Soda Water",
+        "quantity": 1.0,
+        "unit": "top",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "remember-the-maine",
+    "name": "Remember the Maine",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Rye, sweet vermouth, cherry brandy, and an absinthe rinse.",
+    "instructions": "Rinse a chilled coupe with absinthe and discard the excess. Stir the remaining ingredients with ice and strain into the prepared glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Rye Whiskey",
+        "quantity": 60.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sweet Vermouth",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cherry Brandy",
+        "quantity": 15.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Absinthe",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "stinger",
+    "name": "Stinger",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Cognac and white crème de menthe.",
+    "instructions": "Stir both ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/stinger/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Cognac",
+        "quantity": 50.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "White Creme de Menthe",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "tuxedo",
+    "name": "Tuxedo",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Old Tom gin and dry vermouth accented with maraschino, absinthe, and orange bitters.",
+    "instructions": "Stir all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tuxedo/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Old Tom Gin",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Dry Vermouth",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Maraschino Liqueur",
+        "quantity": 0.5,
+        "unit": "barspoon",
+        "optional": false
+      },
+      {
+        "ingredientName": "Absinthe",
+        "quantity": 0.25,
+        "unit": "barspoon",
+        "optional": false
+      },
+      {
+        "ingredientName": "Orange Bitters",
+        "quantity": 3.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "vieux-carre",
+    "name": "Vieux Carré",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "Rye and Cognac with sweet vermouth, Bénédictine, and Peychaud’s bitters.",
+    "instructions": "Stir all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/vieux-carre/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Rye Whiskey",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Cognac",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Sweet Vermouth",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Benedictine",
+        "quantity": 1.0,
+        "unit": "barspoon",
+        "optional": false
+      },
+      {
+        "ingredientName": "Peychaud's Bitters",
+        "quantity": 2.0,
+        "unit": "dash",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "key": "white-lady",
+    "name": "White Lady",
+    "type": "cocktail",
+    "version": "1.0",
+    "description": "A crisp gin, orange liqueur, and lemon sour.",
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "source": "IBA reference; Virtual Bartender normalized recipe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/white-lady/",
+    "parentKey": null,
+    "ingredients": [
+      {
+        "ingredientName": "Gin",
+        "quantity": 40.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Triple Sec",
+        "quantity": 30.0,
+        "unit": "ml",
+        "optional": false
+      },
+      {
+        "ingredientName": "Lemon Juice",
+        "quantity": 20.0,
+        "unit": "ml",
+        "optional": false
+      }
+    ]
   }
 ] as const;
 
