@@ -24,6 +24,7 @@ SOURCES = [
     ("catalog_v4.py", "RECIPES_V4"),
     ("catalog_v5.py", "RECIPES_V5"),
     ("catalog_v6.py", "RECIPES_V6"),
+    ("catalog_v7.py", "RECIPES_V7"),
 ]
 
 
