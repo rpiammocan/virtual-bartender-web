@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Refresh canonical catalog and recipe images
+        run: python3 tools/generate_catalog.py --sync-images public/media
+
       - name: Build
         run: npm run build
 
