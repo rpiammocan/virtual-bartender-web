@@ -17,6 +17,11 @@ export interface CatalogRecipe {
   sourceUrl: string;
   parentKey?: string;
   ingredients: RecipeIngredient[];
+  imagePath?: string;
+  imageSourceUrl?: string | null;
+  imageLicense?: string | null;
+  imageAttribution?: string | null;
+  imageAiGenerated?: boolean;
 }
 
 export type MatchStatus = "exact" | "substitution" | "variant" | "almost-there" | "missing";
