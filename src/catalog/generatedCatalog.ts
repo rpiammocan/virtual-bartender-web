@@ -38,7 +38,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/old-fashioned.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Whiskey_Old_Fashioned1.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "© Erich Wagner / eventografie.de",
+    "imageAiGenerated": false
   },
   {
     "key": "manhattan",
@@ -69,7 +74,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/manhattan.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Manhattan_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Hayford Peirce",
+    "imageAiGenerated": false
   },
   {
     "key": "margarita",
@@ -106,7 +116,12 @@ const RAW = [
         "unit": "tsp",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/margarita.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:MargaritaReal.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Akke Monasso",
+    "imageAiGenerated": false
   },
   {
     "key": "daiquiri",
@@ -137,7 +152,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/daiquiri.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Classic_Daiquiri_in_Cocktail_Glass.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "gin-tonic",
@@ -168,7 +188,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/gin-tonic.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gin_and_tonic_cocktail_with_wedge_of_lime.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Davidnuescheler",
+    "imageAiGenerated": false
   },
   {
     "key": "moscow-mule",
@@ -199,7 +224,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/moscow-mule.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Moscow_mule_Cocktail_im_Kupferbecher.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Gordito1869",
+    "imageAiGenerated": false
   },
   {
     "key": "virgin-moscow-mule",
@@ -255,7 +285,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/whiskey-ginger.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Whiskey_Ginger,_London_Bridge,_SE1.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Ewan-M",
+    "imageAiGenerated": false
   },
   {
     "key": "rum-sprite",
@@ -311,7 +346,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/tequila-tonic.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tequila_%26_Tonic.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Surv1v4l1st",
+    "imageAiGenerated": false
   },
   {
     "key": "negroni",
@@ -348,7 +388,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/negroni.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Negroni_(cocktail).jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Sudhertzen",
+    "imageAiGenerated": false
   },
   {
     "key": "americano",
@@ -385,7 +430,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/americano.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Americano_Cocktail_(15052466276).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Personal Creations",
+    "imageAiGenerated": false
   },
   {
     "key": "boulevardier",
@@ -416,7 +466,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/boulevardier.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Boulevardier_Cocktail,_Burgersmith_Baton_Rouge.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Paul Lowry",
+    "imageAiGenerated": false
   },
   {
     "key": "whiskey-sour",
@@ -453,7 +508,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/whiskey-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Whiskey_Sour.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Jgilgamesh",
+    "imageAiGenerated": false
   },
   {
     "key": "tom-collins",
@@ -490,7 +550,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tom-collins.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_Collins_cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Daniel Nguyen",
+    "imageAiGenerated": false
   },
   {
     "key": "gimlet",
@@ -521,7 +586,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gimlet.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:A_Gimlet_cocktail_(Isla_Holbox).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Bruno Rijsman",
+    "imageAiGenerated": false
   },
   {
     "key": "martini",
@@ -552,7 +622,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/dry-martini.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dry_martini.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Arnaud 25",
+    "imageAiGenerated": false
   },
   {
     "key": "black-russian",
@@ -577,7 +652,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/black-russian.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Russian.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "white-russian",
@@ -608,7 +688,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/white-russian.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:White_Russian_-_CrystalMixer.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "CrystalMixer - CrystalMixer.com",
+    "imageAiGenerated": false
   },
   {
     "key": "cosmopolitan",
@@ -645,7 +730,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cosmopolitan.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cosmopolitan_cocktail_ingredients.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "GeoO",
+    "imageAiGenerated": false
   },
   {
     "key": "bloody-mary",
@@ -700,7 +790,12 @@ const RAW = [
         "unit": "tsp",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/bloody-mary.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VTR_-_Bloody_Mary.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Edsel L",
+    "imageAiGenerated": false
   },
   {
     "key": "espresso-martini",
@@ -737,7 +832,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/espresso-martini.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Espresso_Martini_on_a_bar.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "AlphaLemur",
+    "imageAiGenerated": false
   },
   {
     "key": "mojito",
@@ -786,7 +886,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/mojito.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mojito_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Sunny windy soundy",
+    "imageAiGenerated": false
   },
   {
     "key": "dark-stormy",
@@ -817,7 +922,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/dark-stormy.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0202.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Ralf Roletschek",
+    "imageAiGenerated": false
   },
   {
     "key": "pina-colada",
@@ -854,7 +964,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/pina-colada.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pina_Colada_(Cocktail).jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Martin Asche",
+    "imageAiGenerated": false
   },
   {
     "key": "mai-tai",
@@ -897,7 +1012,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/mai-tai.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Love_in_Goa_%26_Mai_Tai_-_Calcutta_16_2026-07-11.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "Andy Li",
+    "imageAiGenerated": false
   },
   {
     "key": "cuba-libre",
@@ -928,7 +1048,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cuba-libre.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0056.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Ralf Roletschek",
+    "imageAiGenerated": false
   },
   {
     "key": "paloma",
@@ -965,7 +1090,12 @@ const RAW = [
         "unit": "tsp",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/paloma.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B3ctel_paloma_y_sangrita,_Mazatl%C3%A1n,_23_de_noviembre_de_2022_02.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "El Nuevo Doge",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-sunrise",
@@ -996,7 +1126,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tequila-sunrise.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tequila_Sunrise_2013.JPG",
+    "imageLicense": "CC BY 3.0",
+    "imageAttribution": "stavros1",
+    "imageAiGenerated": false
   },
   {
     "key": "mezcal-margarita",
@@ -1027,7 +1162,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/mezcal-margarita.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:El_Grito_at_Kina%27s_Kitchen_and_Bar,_Sonoma,_California_-_Sarah_Stierch_10.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "Missvain",
+    "imageAiGenerated": false
   },
   {
     "key": "sidecar",
@@ -1058,7 +1198,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/sidecar.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sidecar-cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Evan Swigart / TheCulinaryGeek",
+    "imageAiGenerated": false
   },
   {
     "key": "brandy-alexander",
@@ -1089,7 +1234,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-alexander.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Brandy_Alexander_on_the_Rocks.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "irish-coffee",
@@ -1163,7 +1313,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/aperol-spritz.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mitch_(cocktail).jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Andreamicci",
+    "imageAiGenerated": false
   },
   {
     "key": "bellini",
@@ -1188,7 +1343,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/bellini.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bellini_cocktail_in_a_flute-glass.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Bruce The Deus",
+    "imageAiGenerated": false
   },
   {
     "key": "champagne-cocktail",
@@ -1219,7 +1379,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/champagne-cocktail.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pear_cranberry_sparkling_wine_or_champagne_cocktail_in_a_flute_(15668298752).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Personal Creations",
+    "imageAiGenerated": false
   },
   {
     "key": "french-75",
@@ -1256,7 +1421,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/french-75.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:French_75.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "https://www.flickr.com/people/garyjwood/",
+    "imageAiGenerated": false
   },
   {
     "key": "aviation",
@@ -1287,7 +1457,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/aviation.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aviation_Cocktail.jpg",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Bskinner112 at English Wikipedia",
+    "imageAiGenerated": false
   },
   {
     "key": "bees-knees",
@@ -1318,7 +1493,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/bees-knees.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bee%27s_Knees_(cocktail).jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Kenneth C. Zirkel",
+    "imageAiGenerated": false
   },
   {
     "key": "last-word",
@@ -1355,7 +1535,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/last-word.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Last_Word_cocktail,_Baton_Rouge_2025.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "Paul Lowry",
+    "imageAiGenerated": false
   },
   {
     "key": "sazerac",
@@ -1398,7 +1583,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/sazerac.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sazerac_Cocktail_-_New_Orleans_April_2022.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Carnaval.com Studios",
+    "imageAiGenerated": false
   },
   {
     "key": "mint-julep",
@@ -1435,7 +1625,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/mint-julep.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mint_julep_at_Revel_in_New_Orleans.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Jami430",
+    "imageAiGenerated": false
   },
   {
     "key": "john-collins",
@@ -1472,7 +1667,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/john-collins.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IBA_Cocktail_John_Collins_(29221732881).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Michael Styne from Averill Park, NY, USA",
+    "imageAiGenerated": false
   },
   {
     "key": "godfather",
@@ -1497,7 +1697,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/godfather.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Godfather_cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Stuart Webster from Southampton, England",
+    "imageAiGenerated": false
   },
   {
     "key": "godmother",
@@ -1590,7 +1795,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/sex-on-the-beach.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sex_On_The_Beach_Cocktail_@_Clare_Hotel_20250123-124727.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "RegionVisitor90",
+    "imageAiGenerated": false
   },
   {
     "key": "shirley-temple",
@@ -1621,7 +1831,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/shirley-temple.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shirley_Temple_%26_Cosmopolitan_cocktails.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "cbgrfx123",
+    "imageAiGenerated": false
   },
   {
     "key": "virgin-mojito",
@@ -1726,7 +1941,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/virgin-pina-colada.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pina_Colada_at_Aruba.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "DDJJ",
+    "imageAiGenerated": false
   },
   {
     "key": "cucumber-cooler",
@@ -1763,7 +1983,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cucumber-cooler.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cucumber_pachadi-_My_home_Bangalore_-Karnataka_-pic_08.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Shruthi Gaurav Alva",
+    "imageAiGenerated": false
   },
   {
     "key": "ginger-lime-fizz",
@@ -1825,7 +2050,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/vodka-tonic.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vodka_tonic.jpg",
+    "imageLicense": "Public domain",
+    "imageAttribution": "FIshstick at English Wikipedia",
+    "imageAiGenerated": false
   },
   {
     "key": "rum-cola",
@@ -1875,7 +2105,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/bourbon-cola.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Skopje_(North)_Macedonia_2023-02-09_-_Bourbon_Street_and_Coca-Cola.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Sharon Hahn Darlin",
+    "imageAiGenerated": false
   },
   {
     "key": "scotch-soda",
@@ -1900,7 +2135,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/scotch-soda.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Glass_of_Scotch_and_soda.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "DoubleGrazing",
+    "imageAiGenerated": false
   },
   {
     "key": "gin-rickey",
@@ -1931,7 +2171,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gin-rickey.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gin_Rickey.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Scott Veg",
+    "imageAiGenerated": false
   },
   {
     "key": "greyhound",
@@ -1956,7 +2201,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/greyhound.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Greyhound_Cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Scott Veg",
+    "imageAiGenerated": false
   },
   {
     "key": "cape-codder",
@@ -1987,7 +2237,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/cape-codder.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Codder,_Tommy_Doyles_Irish_Pub,_Hyannis_MA.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "John Phelan",
+    "imageAiGenerated": false
   },
   {
     "key": "screwdriver",
@@ -2012,7 +2267,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/screwdriver.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Screwdriver_cocktail_ingredients.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "GeoO",
+    "imageAiGenerated": false
   },
   {
     "key": "salty-dog",
@@ -2043,7 +2303,12 @@ const RAW = [
         "unit": "tsp",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/salty-dog.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Salty_Dog.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Momoji3",
+    "imageAiGenerated": false
   },
   {
     "key": "rum-punch",
@@ -2092,7 +2357,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/rum-punch.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2_1-2_dollar_note_and_rum_punch_-_Paramaribo_(23728395922).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Dan Sloan",
+    "imageAiGenerated": false
   },
   {
     "key": "planters-punch",
@@ -2129,7 +2399,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/planters-punch.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Planters_Punch_1.jpg",
+    "imageLicense": "CC BY-SA 3.0 de",
+    "imageAttribution": "Achim Schleuning (E-Mail: comander02_de@yahoo.de)",
+    "imageAiGenerated": false
   },
   {
     "key": "amaretto-sour",
@@ -2160,7 +2435,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/amaretto-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VTR_-_Ultimate_Amaretto_Sour.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Edsel L",
+    "imageAiGenerated": false
   },
   {
     "key": "bramble",
@@ -2197,7 +2477,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/bramble.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bramble_Cocktail_(float).jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Erich Wagner (www.eventografie.de)",
+    "imageAiGenerated": false
   },
   {
     "key": "southside",
@@ -2234,7 +2519,12 @@ const RAW = [
         "unit": "pc",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/southside.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Clover_club_southside_fizz_(3285775440).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Krista",
+    "imageAiGenerated": false
   },
   {
     "key": "gold-rush",
@@ -2265,7 +2555,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gold-rush.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:City_of_Downey_-_The_Gold_Rush_(31785441094).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+    "imageAiGenerated": false
   },
   {
     "key": "penicillin",
@@ -2302,7 +2597,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/penicillin.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Penicillin_Cocktail.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Matthias Friedlein (www.augustine-bar.de)",
+    "imageAiGenerated": false
   },
   {
     "key": "paper-plane",
@@ -2339,7 +2639,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/paper-plane.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taub_Famiy_Outpost_-_June_9_2021_-_Sarah_Stierch.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "Missvain",
+    "imageAiGenerated": false
   },
   {
     "key": "mocktail-sunrise",
@@ -2407,7 +2712,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/pineapple-fizz.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Virgin_Pina_Colada_and_Strawberry_Fizz_-_Etci_Kitchen_2025-09-22.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "Andy Li",
+    "imageAiGenerated": false
   },
   {
     "key": "cranberry-lime-spritz",
@@ -2469,7 +2779,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/vodka-soda.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vodka_Soda_(cropped).jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Molly1900",
+    "imageAiGenerated": false
   },
   {
     "key": "gin-soda",
@@ -2500,7 +2815,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/gin-soda.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gin_and_tonic_at_Grand_Marina_terrace_with_Vappu_decorations.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "JIP",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-soda",
@@ -2806,7 +3126,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gin-grapefruit.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Self-made_gin_grapefruit_long_drink.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "JIP",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-grapefruit",
@@ -2831,7 +3156,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tequila-grapefruit.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:TequilaPaloma.JPG",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Antonio Cavallo",
+    "imageAiGenerated": false
   },
   {
     "key": "rum-pineapple",
@@ -2881,7 +3211,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/vodka-pineapple.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Catwalk_cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Charandeep Singh",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-pineapple",
@@ -2906,7 +3241,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tequila-pineapple.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:La_base_del_tequila_agave_azul_tequilana_Weber.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Alfonso Jiménez",
+    "imageAiGenerated": false
   },
   {
     "key": "rum-orange",
@@ -2981,7 +3321,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tequila-orange.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mardi_Gras_Carnival_and_Mexican_Melon_-_Montagues_Tex_Mex_2026-06-03.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "Andy Li",
+    "imageAiGenerated": false
   },
   {
     "key": "vodka-cranberry",
@@ -3006,7 +3351,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/vodka-cranberry.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vodka_Cranberry_Cocktail_(5408164203).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "MoneyBlogNewz",
+    "imageAiGenerated": false
   },
   {
     "key": "gin-cranberry",
@@ -3031,7 +3381,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gin-cranberry.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Water_Grill_-_Las_Vegas_-_Dec_2019_-_Stierch_06.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "Missvain",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-cranberry",
@@ -3192,7 +3547,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gin-lemonade.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Self-made_gin_pink_grapefruit_long_drink.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "JIP",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-lemonade",
@@ -3229,7 +3589,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tequila-lemonade.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cheers_!!!_(5297201751).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Rishabh Mathur from Bangalore, India",
+    "imageAiGenerated": false
   },
   {
     "key": "rum-lemonade",
@@ -3266,7 +3631,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/rum-lemonade.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cocktails_(5297823968).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Rishabh Mathur from Bangalore, India",
+    "imageAiGenerated": false
   },
   {
     "key": "bourbon-sour-no-egg",
@@ -3334,7 +3704,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/gin-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Spiced_Sloe_Sour.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "SyrupDee",
+    "imageAiGenerated": false
   },
   {
     "key": "vodka-sour",
@@ -3371,7 +3746,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/vodka-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sour_Fisk_Watermelon.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "JIP",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-sour",
@@ -3402,7 +3782,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tequila-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tequila_sour.jpg",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Jennight",
+    "imageAiGenerated": false
   },
   {
     "key": "rum-sour",
@@ -3464,7 +3849,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Brandy_sour_(22656571926).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Walter Schärer from Switzerland",
+    "imageAiGenerated": false
   },
   {
     "key": "amaretto-coffee",
@@ -3495,7 +3885,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/amaretto-coffee.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gray_espresso_cup_with_amaretto_1.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Friedrich Haag",
+    "imageAiGenerated": false
   },
   {
     "key": "irish-creamless-coffee",
@@ -3526,7 +3921,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/irish-creamless-coffee.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Butler_Gunn_Diaries-_Volume_9,_page_223,_October_11,_1858.jpg",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Gunn, Thomas Butler, 1826-1903",
+    "imageAiGenerated": false
   },
   {
     "key": "coffee-cognac",
@@ -3551,7 +3951,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/coffee-cognac.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Br%C3%BBlot_charentais_01.JPG",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Salix",
+    "imageAiGenerated": false
   },
   {
     "key": "coffee-rum",
@@ -3694,7 +4099,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/lemon-soda-mocktail.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Long_Shot_Lemon.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "JIP",
+    "imageAiGenerated": false
   },
   {
     "key": "lime-soda-mocktail",
@@ -3725,7 +4135,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/lime-soda-mocktail.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Adios_Motherfucker_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "pineapple-ginger-mocktail",
@@ -3750,7 +4165,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/pineapple-ginger-mocktail.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sobo_Juice_In_Northern_Nigeria_5.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Hajjare",
+    "imageAiGenerated": false
   },
   {
     "key": "cranberry-ginger-mocktail",
@@ -3850,7 +4270,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/lime-tonic-mocktail.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lime_tonic_water.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Corn cheese",
+    "imageAiGenerated": false
   },
   {
     "key": "lemon-tonic-mocktail",
@@ -3900,7 +4325,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-cola.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kirk-a-kola.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "Shisma",
+    "imageAiGenerated": false
   },
   {
     "key": "brandy-ginger",
@@ -3925,7 +4355,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-ginger.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "brandy-soda",
@@ -3950,7 +4385,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-soda.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "cognac-cola",
@@ -3975,7 +4415,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cognac-cola.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "cognac-ginger",
@@ -4000,7 +4445,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cognac-ginger.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "cognac-tonic",
@@ -4200,7 +4650,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/dark-rum-cola.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Coca-Cola-signature_mixers-smoky_notes-back.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "FlippyFlink",
+    "imageAiGenerated": false
   },
   {
     "key": "dark-rum-ginger",
@@ -4475,7 +4930,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/mezcal-ginger.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Har_Mar_Superstar_Mezcal,_Ginger,_Lemon,_Local_Honey,_Thyme_(34320058573).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "T.Tseng",
+    "imageAiGenerated": false
   },
   {
     "key": "aperol-soda",
@@ -4500,7 +4960,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/aperol-soda.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ebbelrol_Spritz_Dauth-Schneider-.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Benreis",
+    "imageAiGenerated": false
   },
   {
     "key": "campari-soda",
@@ -4525,7 +4990,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/campari-soda.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Campari_Soda_(2).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "https://www.flickr.com/photos/mesec/",
+    "imageAiGenerated": false
   },
   {
     "key": "campari-orange",
@@ -4550,7 +5020,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/campari-orange.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Campari_Orange.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "eWikiLearner",
+    "imageAiGenerated": false
   },
   {
     "key": "amaretto-cola",
@@ -4625,7 +5100,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/coffee-liqueur-cola.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "brandy-orange",
@@ -4650,7 +5130,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-orange.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Glass_of_Sangria_-_Tinto_Taperia_2026-05-17.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "Andy Li",
+    "imageAiGenerated": false
   },
   {
     "key": "brandy-pineapple",
@@ -4675,7 +5160,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-pineapple.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Brandy_sour_(22656571926).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Walter Schärer from Switzerland",
+    "imageAiGenerated": false
   },
   {
     "key": "cognac-orange",
@@ -4700,7 +5190,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cognac-orange.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sidecar-cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Evan Swigart from Chicago, USA",
+    "imageAiGenerated": false
   },
   {
     "key": "cognac-cranberry",
@@ -4725,7 +5220,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cognac-cranberry.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Selection_of_hot_dogs.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Paul Goyette",
+    "imageAiGenerated": false
   },
   {
     "key": "irish-whiskey-cranberry",
@@ -4800,7 +5300,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/dark-rum-pineapple.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Zombiecocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Magnetic Rag",
+    "imageAiGenerated": false
   },
   {
     "key": "dark-rum-orange",
@@ -4950,7 +5455,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/mezcal-pineapple.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sip_I,_M%C3%A9rida,_Yucat%C3%A1n_2024.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "edenpictures",
+    "imageAiGenerated": false
   },
   {
     "key": "rye-sour",
@@ -4981,7 +5491,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/rye-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VTR_-_Rye_Sour.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Edsel L",
+    "imageAiGenerated": false
   },
   {
     "key": "scotch-sour",
@@ -5012,7 +5527,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/scotch-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:NewYork_Sour_scotch.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Corvus",
+    "imageAiGenerated": false
   },
   {
     "key": "irish-whiskey-sour",
@@ -5074,7 +5594,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-sour-lemon.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "cognac-sour",
@@ -5105,7 +5630,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cognac-sour.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "mezcal-sour",
@@ -5136,7 +5666,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/mezcal-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Delicious_Mezcal_Sour.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "https://www.flickr.com/photos/bexwalton/",
+    "imageAiGenerated": false
   },
   {
     "key": "reposado-sour",
@@ -5198,7 +5733,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/dark-rum-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Punch_Davy_Jones%27s_Locker.png",
+    "imageLicense": "Public domain",
+    "imageAttribution": "John Tenniel",
+    "imageAiGenerated": false
   },
   {
     "key": "gold-rum-sour",
@@ -5266,7 +5806,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/vodka-collins.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vodka-1972.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Vanwalker",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-collins",
@@ -5414,7 +5959,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cognac-collins.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "vodka-daisy",
@@ -5562,7 +6112,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-daisy.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "bourbon-daisy",
@@ -5630,7 +6185,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/campari-spritz.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20120704_170702_venezia_1584.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Gunther H.G. Geick",
+    "imageAiGenerated": false
   },
   {
     "key": "amaretto-spritz",
@@ -5692,7 +6252,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-spritz.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "cognac-spritz",
@@ -5754,7 +6319,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gin-spritz.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Spritz.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "JIP",
+    "imageAiGenerated": false
   },
   {
     "key": "brandy-coffee",
@@ -5816,7 +6386,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/cognac-coffee.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Restaurant_Llu%C3%A7an%C3%A8s_Kaffe,_petit_fours_og_cognac_(4254823806).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "cyclonebill from Copenhagen, Denmark",
+    "imageAiGenerated": false
   },
   {
     "key": "scotch-coffee",
@@ -5903,7 +6478,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/amaretto-cream.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Panettone_IMG_3607_(32264620218).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "N i c o l a from Fiumicino (Rome), Italy",
+    "imageAiGenerated": false
   },
   {
     "key": "coffee-liqueur-cream",
@@ -5934,7 +6514,12 @@ const RAW = [
         "unit": "oz",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/coffee-liqueur-cream.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Heugemeug.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Takeaway",
+    "imageAiGenerated": false
   },
   {
     "key": "orange-blossom",
@@ -5959,7 +6544,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/orange-blossom.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kitchen_Table_Caf%C3%A9,_Arabi,_Louisiana_-_Orange_Blossom_Special_cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Infrogmation of New Orleans",
+    "imageAiGenerated": false
   },
   {
     "key": "bronx",
@@ -5996,7 +6586,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/bronx.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "perfect-martini",
@@ -6095,7 +6690,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/rob-roy.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rob_Roy_Cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "TheCulinaryGeek",
+    "imageAiGenerated": false
   },
   {
     "key": "rusty-nail",
@@ -6120,7 +6720,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/rusty-nail.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rusty_Nail_a_cocktail_by_@tokenchick13_(16503594826).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Brian Child",
+    "imageAiGenerated": false
   },
   {
     "key": "black-and-tan-coffee",
@@ -6182,7 +6787,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/rum-old-fashioned.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rum,_Manhattan,_Tequila_Old_Fashioned_(1).jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "File:Rum, Manhattan, Tequila Old Fashioned.jpg: Cocktailmarler\nderivative work: Jocian",
+    "imageAiGenerated": false
   },
   {
     "key": "tequila-old-fashioned",
@@ -6213,7 +6823,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tequila-old-fashioned.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rum,_Manhattan,_Tequila_Old_Fashioned.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Cocktailmarler",
+    "imageAiGenerated": false
   },
   {
     "key": "mezcal-old-fashioned",
@@ -6412,7 +7027,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/campari-tonic.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fiola_-_March_2018_-_Sarah_Stierch_04.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "Missvain",
+    "imageAiGenerated": false
   },
   {
     "key": "amaretto-coffee-sour",
@@ -6480,7 +7100,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/coffee-old-fashioned.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Old_fashioned_doughnut1.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Kenny Louie from Burnaby, Canada",
+    "imageAiGenerated": false
   },
   {
     "key": "pineapple-daiquiri",
@@ -6517,7 +7142,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/pineapple-daiquiri.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Garden_Daiquiri_and_Cocktail_Snacks_(42941099655).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "T.Tseng",
+    "imageAiGenerated": false
   },
   {
     "key": "strawberry-daiquiri",
@@ -6554,7 +7184,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/strawberry-daiquiri.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rose,_Strawberry_Daiquiri,_%E3%83%90%E3%83%A9,_%E3%82%B9%E3%83%88%E3%83%AD%E3%83%99%E3%83%AA%E3%83%BC_%E3%83%80%E3%82%A4%E3%82%AD%E3%83%AA,_(15712192726).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "T.Kiya from Japan",
+    "imageAiGenerated": false
   },
   {
     "key": "raspberry-gimlet",
@@ -6665,7 +7300,12 @@ const RAW = [
         "unit": "pc",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cucumber-gimlet.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cucumbers!_(4921518956).jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Karen and Brad Emerson",
+    "imageAiGenerated": false
   },
   {
     "key": "virgin-whiskey-sour",
@@ -6696,7 +7336,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/virgin-whiskey-sour.webp",
+    "imageSourceUrl": null,
+    "imageLicense": "Original Virtual Bartender AI-generated image",
+    "imageAttribution": "Virtual Bartender / OpenAI image generation",
+    "imageAiGenerated": true
   },
   {
     "key": "mint-lemon-fizz",
@@ -6844,7 +7489,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/basil-lime-soda.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alinea_-_COURSE_22.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Matthew Hine",
+    "imageAiGenerated": false
   },
   {
     "key": "raspberry-lime-soda",
@@ -6931,7 +7581,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/cherry-cola-style.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Cola.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "Graciepitts",
+    "imageAiGenerated": false
   },
   {
     "key": "pineapple-colada-soda",
@@ -7236,7 +7891,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/club-cranberry-mocktail.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SeaDream_II_%E2%80%94_Top_Of_The_Yacht_Bar_%E2%80%94_Drink_of_the_Day.JPG",
+    "imageLicense": "CC BY 2.0 de",
+    "imageAttribution": "User:Mattes",
+    "imageAiGenerated": false
   },
   {
     "key": "club-pineapple-mocktail",
@@ -7261,7 +7921,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/club-pineapple-mocktail.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Recipes_for_the_Manufacture_of_Aerated_%26_Mineral_Waters_and_Non-Alcoholic_Cordials_-_DPLA_-_f0f1ad85cbe19998d323fc350788106e_(page_51).jpg",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Bush, William Ernest, 1861-1903",
+    "imageAiGenerated": false
   },
   {
     "key": "honey-lemon-soda",
@@ -7323,7 +7988,12 @@ const RAW = [
         "unit": "oz",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/agave-lime-soda.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mocktails_-_English%27s_of_Brighton_2025-07-29.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "Andy Li",
+    "imageAiGenerated": false
   },
   {
     "key": "orgeat-lime-soda",
@@ -7638,7 +8308,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/angel-face.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IBA_Cocktail_Angel_Face_(28068833805).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Michael Styne from Averill Park, NY, USA",
+    "imageAiGenerated": false
   },
   {
     "key": "between-the-sheets",
@@ -7675,7 +8350,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/between-the-sheets.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Between_The_Sheets_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Zach",
+    "imageAiGenerated": false
   },
   {
     "key": "brandy-crusta",
@@ -7736,7 +8416,12 @@ const RAW = [
         "unit": "pc",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/brandy-crusta.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bellocq_brandy_crusta,_New_Orleans.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Krista",
+    "imageAiGenerated": false
   },
   {
     "key": "casino",
@@ -7773,7 +8458,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/casino.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bistro_Napa_at_the_Atlantis_Casino_Resort_Spa_in_Reno,_Nevada_-_July_2021_-_Sarah_Stierch_03.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "Missvain",
+    "imageAiGenerated": false
   },
   {
     "key": "clover-club",
@@ -7810,7 +8500,12 @@ const RAW = [
         "unit": "drop",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/clover-club.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0120.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Ralf Roletschek",
+    "imageAiGenerated": false
   },
   {
     "key": "gin-fizz",
@@ -7847,7 +8542,12 @@ const RAW = [
         "unit": "splash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gin-fizz.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tropical_Gin_Fizz_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "mkorcuska",
+    "imageAiGenerated": false
   },
   {
     "key": "hanky-panky",
@@ -7878,7 +8578,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/hanky-panky.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hanky_Panky_cocktail.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Tim Sackton from Somerville, MA",
+    "imageAiGenerated": false
   },
   {
     "key": "martinez",
@@ -7915,7 +8620,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/martinez.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Martinez_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "mary-pickford",
@@ -7952,7 +8662,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/mary-pickford.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Pickford_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "monkey-gland",
@@ -7989,7 +8704,12 @@ const RAW = [
         "unit": "tbsp",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/monkey-gland.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Monkey_Gland_(11677703163).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Adrian Scottow from London, England",
+    "imageAiGenerated": false
   },
   {
     "key": "paradise",
@@ -8020,7 +8740,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/paradise.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rainbow-paradise-cocktail-scaled-scaled-735x1102.webp",
+    "imageLicense": "CC0",
+    "imageAttribution": "Nicole Goldman",
+    "imageAiGenerated": false
   },
   {
     "key": "porto-flip",
@@ -8057,7 +8782,12 @@ const RAW = [
         "unit": "pinch",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/porto-flip.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Porto_Flip.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Stuart Webster",
+    "imageAiGenerated": false
   },
   {
     "key": "ramos-fizz",
@@ -8124,7 +8854,12 @@ const RAW = [
         "unit": "top",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/ramos-fizz.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ramos_Fizz.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Stuart Webster",
+    "imageAiGenerated": false
   },
   {
     "key": "remember-the-maine",
@@ -8161,7 +8896,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/remember-the-maine.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Remember_the_Maine_-_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Adrian Scottow",
+    "imageAiGenerated": false
   },
   {
     "key": "stinger",
@@ -8186,7 +8926,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/stinger.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stinger_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "tuxedo",
@@ -8229,7 +8974,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tuxedo.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tuxedo_No._2_cocktail.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "vieux-carre",
@@ -8272,7 +9022,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/vieux-carre.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vieux_Carre_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Adrian Scottow",
+    "imageAiGenerated": false
   },
   {
     "key": "white-lady",
@@ -8303,7 +9058,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/white-lady.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:White_Lady_(cocktail).jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Momoji3",
+    "imageAiGenerated": false
   },
   {
     "key": "caipirinha",
@@ -8334,7 +9094,12 @@ const RAW = [
         "unit": "tsp",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/caipirinha.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cocktail_Caipirinha_raw.jpg",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Christian",
+    "imageAiGenerated": false
   },
   {
     "key": "cardinale",
@@ -8365,7 +9130,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/cardinale.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rosa_%27Claudia_Cardinale%27,_Ch%C3%A2teau_d%27Eu-76_(2)_%27.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "APictche",
+    "imageAiGenerated": false
   },
   {
     "key": "corpse-reviver-2",
@@ -8408,7 +9178,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/corpse-reviver-2.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Corpse_Reviver_2.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "french-connection",
@@ -8433,7 +9208,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/french-connection.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:French_Connection_(cocktail).jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Arnaud 25",
+    "imageAiGenerated": false
   },
   {
     "key": "garibaldi",
@@ -8458,7 +9238,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/garibaldi.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Garibaldi_cocktail_bright.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "User:BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "grasshopper",
@@ -8489,7 +9274,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/grasshopper.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Grasshopper_Cocktail,_French_Quarter,_New_Orleans.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Miguel Discart",
+    "imageAiGenerated": false
   },
   {
     "key": "hemingway-special",
@@ -8557,7 +9347,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/horses-neck.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Horse%27s_Neck_cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Plume.janvier",
+    "imageAiGenerated": false
   },
   {
     "key": "kir",
@@ -8582,7 +9377,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/kir.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kir_cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Stuart Webster from Southampton, England",
+    "imageAiGenerated": false
   },
   {
     "key": "lemon-drop-martini",
@@ -8674,7 +9474,12 @@ const RAW = [
         "unit": "top",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/long-island-iced-tea.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Long_Island_Iced_Tea_with_Lemon_and_Straw.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Alisdair McDiarmid from Glasgow, United Kingdom",
+    "imageAiGenerated": false
   },
   {
     "key": "mimosa",
@@ -8699,7 +9504,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/mimosa.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mimosa_cocktail_ingredients.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "GeoO",
+    "imageAiGenerated": false
   },
   {
     "key": "pisco-sour",
@@ -8742,7 +9552,12 @@ const RAW = [
         "unit": "dash",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/pisco-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A9rou_Pr%C3%A9paration_d%27un_cocktail_Pisco_Sour.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Pierre André Leclercq",
+    "imageAiGenerated": false
   },
   {
     "key": "rabo-de-galo",
@@ -8773,7 +9588,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/rabo-de-galo.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rabo_de_Galo_(1511113688).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Stella Dauer from São Bernardo do Campo, Brasil",
+    "imageAiGenerated": false
   },
   {
     "key": "singapore-sling",
@@ -8834,7 +9654,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/singapore-sling.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Sling_Cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "James Cridland",
+    "imageAiGenerated": false
   },
   {
     "key": "vesper",
@@ -8865,7 +9690,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/vesper.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vesper_cocktail_ingredients.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "GeoO",
+    "imageAiGenerated": false
   },
   {
     "key": "zombie",
@@ -8932,7 +9762,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/zombie.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Zombie_cocktail_gianni_zottola.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "GianniZottola",
+    "imageAiGenerated": false
   },
   {
     "key": "canchanchara",
@@ -8969,7 +9804,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/canchanchara.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Canchanchara.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Miriam Gómez Blanes",
+    "imageAiGenerated": false
   },
   {
     "key": "chartreuse-swizzle",
@@ -9006,7 +9846,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/chartreuse-swizzle.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chartreuse_swizzle.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "dons-special-daiquiri",
@@ -9105,7 +9950,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/french-martini.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chambord_French_Martini_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Brown-Forman Corporation",
+    "imageAiGenerated": false
   },
   {
     "key": "gin-basil-smash",
@@ -9142,7 +9992,12 @@ const RAW = [
         "unit": "pc",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/gin-basil-smash.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gin_Basil_Smash.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Erich Wagner (www.eventografie.de)",
+    "imageAiGenerated": false
   },
   {
     "key": "grand-margarita",
@@ -9240,7 +10095,12 @@ const RAW = [
         "unit": "pc",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/iba-tiki.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IBA_Tiki_at_Civil_Liberties_in_Toronto.jpg",
+    "imageLicense": "CC0",
+    "imageAttribution": "Adanicklmao",
+    "imageAiGenerated": false
   },
   {
     "key": "illegal",
@@ -9295,7 +10155,12 @@ const RAW = [
         "unit": "drop",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/illegal.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Illegal_cocktail.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "jungle-bird",
@@ -9338,7 +10203,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/jungle-bird.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jungle_bird_cocktail.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "missionarys-downfall",
@@ -9387,7 +10257,12 @@ const RAW = [
         "unit": "pc",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/missionarys-downfall.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Missionary%27s_downfall.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "naked-and-famous",
@@ -9424,7 +10299,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/naked-and-famous.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Naked_and_Famous_cocktail.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "Rascalisimo",
+    "imageAiGenerated": false
   },
   {
     "key": "new-york-sour",
@@ -9467,7 +10347,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/new-york-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:New_York_Sour.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Erich Wagner (www.eventografie.de)",
+    "imageAiGenerated": false
   },
   {
     "key": "old-cuban",
@@ -9516,7 +10401,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/old-cuban.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0312.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Ralf Roletschek",
+    "imageAiGenerated": false
   },
   {
     "key": "pisco-punch",
@@ -9565,7 +10455,12 @@ const RAW = [
         "unit": "pc",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/pisco-punch.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pisco_Punch.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Ministerio de Relaciones Exteriores",
+    "imageAiGenerated": false
   },
   {
     "key": "porn-star-martini",
@@ -9608,7 +10503,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/porn-star-martini.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Porn_star_martini_cocktail.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Ben Sutherland",
+    "imageAiGenerated": false
   },
   {
     "key": "russian-spring-punch",
@@ -9694,7 +10594,12 @@ const RAW = [
         "unit": "pc",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/sherry-cobbler.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sherry_cobbler.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "spicy-fifty",
@@ -9737,7 +10642,12 @@ const RAW = [
         "unit": "pc",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/spicy-fifty.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Spicy_Fifty.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "suffering-bastard",
@@ -9780,7 +10690,12 @@ const RAW = [
         "unit": "top",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/suffering-bastard.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Suffering_Bastard_Cocktail.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAttribution": "Will Shenton",
+    "imageAiGenerated": false
   },
   {
     "key": "three-dots-and-a-dash",
@@ -9841,7 +10756,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/three-dots-and-a-dash.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Three_Dots_and_a_Dash_cocktail.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "tipperary",
@@ -9878,7 +10798,12 @@ const RAW = [
         "unit": "dash",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tipperary.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tipperary.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageAttribution": "BanjoZebra",
+    "imageAiGenerated": false
   },
   {
     "key": "tommys-margarita",
@@ -9909,7 +10834,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/tommys-margarita.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:TommysMargarita.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAttribution": "Rick Audet",
+    "imageAiGenerated": false
   },
   {
     "key": "trinidad-sour",
@@ -9946,7 +10876,12 @@ const RAW = [
         "unit": "ml",
         "optional": false
       }
-    ]
+    ],
+    "imagePath": "/media/trinidad-sour.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VTR_-_Trinidad_Sour_(18045674468).jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAttribution": "Edsel Little",
+    "imageAiGenerated": false
   },
   {
     "key": "ve-n-to",
@@ -9989,13 +10924,23 @@ const RAW = [
         "unit": "drop",
         "optional": true
       }
-    ]
+    ],
+    "imagePath": "/media/ve-n-to.webp",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ve.n.to_cocktail.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Jonsico",
+    "imageAiGenerated": false
   }
 ] as const;
 
 export const BUILTIN_RECIPES: CatalogRecipe[] = RAW.map((recipe) => ({
   ...recipe,
   parentKey: recipe.parentKey ?? undefined,
+  imagePath: 'imagePath' in recipe ? recipe.imagePath ?? undefined : undefined,
+  imageSourceUrl: 'imageSourceUrl' in recipe ? recipe.imageSourceUrl ?? undefined : undefined,
+  imageLicense: 'imageLicense' in recipe ? recipe.imageLicense ?? undefined : undefined,
+  imageAttribution: 'imageAttribution' in recipe ? recipe.imageAttribution ?? undefined : undefined,
+  imageAiGenerated: 'imageAiGenerated' in recipe ? Boolean(recipe.imageAiGenerated) : false,
   ingredients: recipe.ingredients.map((item) => ({
     ...item,
     ingredientId: ingredientId(item.ingredientName),
