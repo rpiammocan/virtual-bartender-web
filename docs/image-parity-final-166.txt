@@ -1,0 +1,1 @@
+Final canonical CasaOS image baseline: 166 retained recipe images after final QA.
