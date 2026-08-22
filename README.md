@@ -2,6 +2,10 @@
 
 Virtual Bartender Web is the browser-hosted edition of Virtual Bartender.
 
+## 🍸 Open the Live Application
+
+### [Launch Virtual Bartender](https://rpiammocan.github.io/virtual-bartender-web/)
+
 It is a standalone Web target alongside the CasaOS, Windows, and Android editions. Users open Virtual Bartender in a normal desktop or mobile browser; CasaOS is not required.
 
 ## Current status
