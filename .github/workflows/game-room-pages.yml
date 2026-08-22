@@ -1,10 +1,9 @@
-name: Deploy web test
+name: Deploy Game Room to Pages
 
 on:
   push:
     branches:
-      - main
-      - agent/browser-native-v1
+      - game-room-deploy
   workflow_dispatch:
 
 permissions:
@@ -20,7 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out branch
+      - name: Check out deployment branch
         uses: actions/checkout@v4
 
       - name: Configure GitHub Pages
@@ -37,7 +36,7 @@ jobs:
       - name: Refresh canonical catalog and recipe images
         run: python3 tools/generate_catalog.py --sync-images public/media
 
-      - name: Build
+      - name: Build existing site
         run: npm run build
 
       - name: Add Offline Game Room
