@@ -42,26 +42,24 @@ jobs:
 
       - name: Add Offline Game Room
         run: |
-          cat game-room-payload/part-00.b64 \
-              game-room-payload/part-01.b64 \
-              game-room-payload/part-02.b64 \
-              game-room-payload/part-03.b64 \
-              game-room-payload/part-04-0.b64 \
-              game-room-payload/part-04-1.b64 \
-              game-room-payload/part-04-2.b64 \
-              game-room-payload/part-04-3.b64 \
-              game-room-payload/part-05-0.b64 \
-              game-room-payload/part-05-1.b64 \
-              game-room-payload/part-05-2.b64 \
-              game-room-payload/part-05-3.b64 \
-              game-room-payload/part-06.b64 \
-              game-room-payload/part-07.b64 \
+          cat game-room-payload/payload-00.b64 \
+              game-room-payload/payload-01.b64 \
+              game-room-payload/payload-02.b64 \
+              game-room-payload/payload-03.b64 \
+              game-room-payload/payload-04.b64 \
+              game-room-payload/payload-05.b64 \
+              game-room-payload/payload-06.b64 \
+              game-room-payload/tail-00.b64 \
+              game-room-payload/tail-01.b64 \
+              game-room-payload/tail-02.b64 \
+              game-room-payload/tail-03.b64 \
+              game-room-payload/tail-04.b64 \
               | base64 --decode > /tmp/offline-game-room.zip
           unzip -t /tmp/offline-game-room.zip
-          rm -rf /tmp/offline-game-room
+          rm -rf /tmp/offline-game-room dist/offline-game-room
           mkdir -p /tmp/offline-game-room dist/offline-game-room
           unzip -q /tmp/offline-game-room.zip -d /tmp/offline-game-room
-          cp -R /tmp/offline-game-room/Offline-Game-Room-v0.16.0/. dist/offline-game-room/
+          cp -a /tmp/offline-game-room/Offline-Game-Room-v0.16.0/. dist/offline-game-room/
           test -f dist/offline-game-room/index.html
           test -f dist/offline-game-room/manifest.webmanifest
           test -f dist/offline-game-room/sw.js
