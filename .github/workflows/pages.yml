@@ -40,6 +40,30 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Add Offline Game Room
+        run: |
+          mkdir -p .tmp-game-room dist/offline-game-room
+          cat \
+            deploy/offline-game-room/fix00a.txt \
+            deploy/offline-game-room/fix00b.txt \
+            deploy/offline-game-room/chunk01.txt \
+            deploy/offline-game-room/chunk02.txt \
+            deploy/offline-game-room/fix03a.txt \
+            deploy/offline-game-room/fix03b.txt \
+            deploy/offline-game-room/chunk04.txt \
+            deploy/offline-game-room/chunk05.txt \
+            deploy/offline-game-room/fix06a.txt \
+            deploy/offline-game-room/fix06b.txt \
+            deploy/offline-game-room/final14.txt \
+            deploy/offline-game-room/final15.txt \
+            > .tmp-game-room/game-room.b64
+          test "$(wc -c < .tmp-game-room/game-room.b64)" -eq 154936
+          base64 -d .tmp-game-room/game-room.b64 > .tmp-game-room/game-room.zip
+          unzip -t .tmp-game-room/game-room.zip
+          unzip -q .tmp-game-room/game-room.zip -d .tmp-game-room/unpacked
+          cp -R .tmp-game-room/unpacked/Offline-Game-Room-v0.16.0/. dist/offline-game-room/
+          test -f dist/offline-game-room/index.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
